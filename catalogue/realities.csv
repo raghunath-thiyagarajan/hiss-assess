@@ -1,0 +1,8 @@
+reality_id,name,description
+R1,Round the clock operation,"Front desk, PMS and payments run every hour of every day, so maintenance windows are short and incidents often happen when IT staff are absent."
+R2,Seasonal and outsourced staff,"Many users are seasonal, agency or outsourced workers who start on a live shift and leave at short notice."
+R3,Shared devices,"Front desk, outlet and back office terminals are shared across shifts and roles."
+R4,Multi property operation,"Several properties run under one group with separate directories, uneven builds and local IT support."
+R5,Franchise or managed operation,"Brand, operator, owner and franchisee split accountability while vendors run many core systems."
+R6,Mixed guest data,"Card data, identity documents, guest registers, folios, loyalty profiles and CCTV sit in one estate under several legal regimes."
+R7,Operational override,Operations teams override IT rules to protect the guest experience when security and service collide.

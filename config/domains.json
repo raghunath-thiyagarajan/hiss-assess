@@ -1,0 +1,18 @@
+{
+  "F1": "Governance and multi property oversight",
+  "F2": "Risk, assets and compliance",
+  "F3": "People, shifts and shared devices",
+  "F4": "Identity and access",
+  "F5": "Configuration, vulnerability and cryptography",
+  "F6": "Detection, response and recovery",
+  "H01": "PMS and reservations",
+  "H02": "POS and payments",
+  "H03": "Guest Wi-Fi and in room technology",
+  "H04": "Door locks and key cards",
+  "H05": "Building management and IoT",
+  "H06": "CCTV",
+  "H07": "Vendor remote access",
+  "H08": "Guest data lifecycle",
+  "H09": "Cloud and SaaS",
+  "H10": "Third party and franchise management"
+}

@@ -1,0 +1,18 @@
+row_type,jurisdiction,basis,obligation_id,tag,instrument,provision,status,linked_controls,applicable_controls,met_controls,unmet_controls,mean_maturity,readiness_pct,state,obligations_scored,ready_n,partial_n,not_ready_n,no_control_n,tracking_n
+obligation,IN,actual,OBL-IN-01,IN,"Digital Personal Data Protection Act, 2023",s.8(5),VERIFIED,5,5,0,HISS-F2-02; HISS-F5-01; HISS-F4-03; HISS-H10-01; HISS-F1-03,1.2,30.0,not ready,,,,,,
+obligation,IN,actual,OBL-IN-02,IN,"Digital Personal Data Protection Act, 2023",s.8(6),VERIFIED,2,2,0,HISS-F6-03; HISS-F6-02,0.5,12.5,not ready,,,,,,
+obligation,IN,actual,OBL-IN-03,IN,"Digital Personal Data Protection Act, 2023",s.8(7),VERIFIED,2,2,0,HISS-H08-04; HISS-H08-05,0.5,12.5,not ready,,,,,,
+obligation,IN,actual,OBL-IN-04,IN,"Digital Personal Data Protection Act, 2023",ss.5 and 6,VERIFIED,2,2,0,HISS-H08-06; HISS-H08-01,0.5,12.5,not ready,,,,,,
+obligation,IN,actual,OBL-IN-05,IN,"Digital Personal Data Protection Act, 2023",s.9,VERIFIED,1,1,0,HISS-H08-06,1.0,25.0,not ready,,,,,,
+obligation,IN,actual,OBL-IN-06,IN,"Digital Personal Data Protection Rules, 2025",Rights requests (PIB summary),VERIFIED,1,1,0,HISS-H08-05,1.0,25.0,not ready,,,,,,
+obligation,IN,actual,OBL-IN-07,IN,"Digital Personal Data Protection Rules, 2025 (G.S.R. 846(E))",Rule 7(1),VERIFIED,1,1,0,HISS-F6-03,0.0,0.0,not ready,,,,,,
+obligation,IN,actual,OBL-IN-08,IN,"Digital Personal Data Protection Rules, 2025 (G.S.R. 846(E))",Rule 7(2),VERIFIED,1,1,0,HISS-F6-03,0.0,0.0,not ready,,,,,,
+obligation,IN,actual,OBL-IN-09,IN,"Digital Personal Data Protection Rules, 2025 (G.S.R. 846(E))",Rule 6,VERIFIED,5,5,0,HISS-F6-01; HISS-H01-02; HISS-F6-04; HISS-F4-04; HISS-H08-02,1.2,30.0,not ready,,,,,,
+obligation,IN,actual,OBL-IN-10,IN,CERT-In Directions 2022 under s.70B(6) of the IT Act,Incident reporting and point of contact,VERIFIED,2,2,0,HISS-F6-03; HISS-F1-02,0.5,12.5,not ready,,,,,,
+obligation,IN,actual,OBL-IN-11,IN,CERT-In Directions 2022 under s.70B(6) of the IT Act,Logs and clock synchronisation,VERIFIED,3,3,0,HISS-F6-01; HISS-H03-02; HISS-H07-04,0.67,16.7,not ready,,,,,,
+obligation,IN,actual,OBL-IN-12,IN,Bureau of Immigration Form III (earlier Form C),Duty of keepers of accommodation,VERIFIED,2,2,0,HISS-H08-03; HISS-H08-02,1.5,37.5,not ready,,,,,,
+tracking,IN,actual,OBL-IN-13,IN,"Immigration and Foreigners Act, 2025",Accommodation reporting basis (as reported),SECONDARY,1,1,0,HISS-H08-03,2.0,,tracking (not scored),,,,,,
+obligation,IN,actual,OBL-IN-14,IN,RBI circular RBI/2022-2023/95 on storage of actual card data,Card on file restriction,VERIFIED,2,2,0,HISS-H01-02; HISS-H02-05,1.5,37.5,not ready,,,,,,
+obligation,IN,actual,OBL-IN-15,IN,"RBI Regulation of Payment Aggregators Directions, 2025",Para 9(a); Annexure 1 paras 1.18 and 2.1,VERIFIED,3,3,0,HISS-H02-04; HISS-H02-06; HISS-H01-02,1.67,41.7,not ready,,,,,,
+summary,IN,actual,,,,,,,,,,,21.0,,14,0,0,14,0,1
+summary,ALL,all configured jurisdictions,,,,,,,,,,,21.0,,14,0,0,14,0,1

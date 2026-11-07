@@ -1,0 +1,13 @@
+{
+  "_note": "Sample settings for the sample catalogue. All values are assumed test values.",
+  "profile": "M",
+  "operating_model": "owned",
+  "triggers": ["T1", "T3", "T5"],
+  "jurisdictions": {"IN": "actual", "EU": "judged applicable through foreign guests", "AE": "what if", "US": "what if"},
+  "input_status": "simulated",
+  "input_tag": "A26",
+  "properties": {
+    "SAMPLEHOTEL": {"label": "Sample hotel", "profile": "M"},
+    "SAMPLESMALL": {"label": "Sample small hotel", "profile": "S", "triggers": ["T1"]}
+  }
+}

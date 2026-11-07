@@ -1,0 +1,64 @@
+{
+  "_working": [
+    "Fixture 1: plain run, profile M, no triggers, no caps. Numbers are worked out by hand in tests/test_hand_fixtures.py.",
+    "Control maturity C1 4, C2 2, C3 3, C4 1, C5 blank (counts as 0).",
+    "Domain F4 mean 3.0 (75.0 percent), H02 mean 2.0 (50.0), H07 mean 0.0 (0.0). Property mean 2.0 (50.0 percent), met 2 of 5.",
+    "Coverage = max over mapped controls of weight x maturity / 4."
+  ],
+  "property": "HAND1",
+  "config": {"profile": "M", "operating_model": "owned", "triggers": [], "jurisdictions": {"IN": "actual"}},
+  "controls": [
+    {"control_id": "C1", "domain": "F4", "level": "Baseline", "profiles": "S;M;G"},
+    {"control_id": "C2", "domain": "F4", "level": "Baseline", "profiles": "S;M;G"},
+    {"control_id": "C3", "domain": "H02", "level": "Baseline", "profiles": "S;M;G"},
+    {"control_id": "C4", "domain": "H02", "level": "Enhanced", "profiles": "M;G"},
+    {"control_id": "C5", "domain": "H07", "level": "Baseline", "profiles": "S;M;G", "owner_owned": "vendor"}
+  ],
+  "answers": {"HAND1": {"C1": 4, "C2": 2, "C3": 3, "C4": 1, "C5": null}},
+  "crosswalk": [
+    ["C1", "ISO27001", "A.5.16", "D", "VERIFIED"],
+    ["C2", "ISO27001", "A.5.16", "P", "VERIFIED"],
+    ["C3", "ISO27001", "A.8.22", "D", "VERIFIED"],
+    ["C4", "ISO27001", "A.8.22", "J", "VERIFIED"],
+    ["C4", "PCIDSS", "1", "D", "VERIFIED"],
+    ["C1", "CSF", "PR.AA", "D", "VERIFIED"],
+    ["C2", "CSF", "PR.AA", "P", "VERIFIED"],
+    ["C5", "CSF", "PR.AA", "J", "VERIFIED"],
+    ["C2", "CIS", "5", "P", "VERIFIED"],
+    ["C4", "CIS", "5", "J", "VERIFIED"]
+  ],
+  "obligations": [
+    ["OBL-IN-1", "IN", "", "VERIFIED", "C1;C2"],
+    ["OBL-IN-2", "IN", "", "VERIFIED", "C4;C5"],
+    ["OBL-IN-3", "IN", "", "SECONDARY", "C3"],
+    ["OBL-IN-4", "IN", "", "VERIFIED", "C3"]
+  ],
+  "expected": {
+    "control_maturity": {"C1": 4, "C2": 2, "C3": 3, "C4": 1, "C5": 0},
+    "control_met": {"C1": "yes", "C2": "no", "C3": "yes", "C4": "no", "C5": "no"},
+    "domains": {
+      "F4": {"mean_maturity": 3.0, "maturity_pct": 75.0, "met": 1, "met_pct": 50.0},
+      "H02": {"mean_maturity": 2.0, "maturity_pct": 50.0, "met": 1, "met_pct": 50.0},
+      "H07": {"mean_maturity": 0.0, "maturity_pct": 0.0, "met": 0, "met_pct": 0.0}
+    },
+    "property": {"mean_maturity": 2.0, "maturity_pct": 50.0, "met": 2, "met_pct": 40.0,
+                 "completeness_pct": 80.0, "domain_mean_pct": 41.7},
+    "standard": {
+      "ISO27001|A.5.16": {"indicative_pct": 100.0, "source_backed_pct": 100.0},
+      "ISO27001|A.8.22": {"indicative_pct": 75.0, "source_backed_pct": 75.0},
+      "PCIDSS|1": {"indicative_pct": 25.0, "source_backed_pct": 25.0},
+      "CSF|PR.AA": {"indicative_pct": 100.0, "source_backed_pct": 100.0},
+      "CIS|5": {"indicative_pct": 25.0, "source_backed_pct": 0.0}
+    },
+    "framework_summary": {
+      "ISO27001": {"clauses_reached_applicable": 2, "indicative_pct_reached": 87.5, "source_backed_pct_reached": 87.5}
+    },
+    "jurisdiction": {
+      "OBL-IN-1": {"readiness_pct": 75.0, "state": "partial"},
+      "OBL-IN-2": {"readiness_pct": 12.5, "state": "not ready"},
+      "OBL-IN-3": {"state": "tracking (not scored)"},
+      "OBL-IN-4": {"readiness_pct": 75.0, "state": "ready"},
+      "IN": {"obligations_scored": 3, "ready_n": 1, "partial_n": 1, "not_ready_n": 1, "tracking_n": 1, "readiness_pct": 54.2}
+    }
+  }
+}

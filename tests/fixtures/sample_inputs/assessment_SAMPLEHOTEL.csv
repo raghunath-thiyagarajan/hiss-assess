@@ -1,0 +1,13 @@
+control_id,maturity,evidence_ref,comment
+HISS-F4-01,3,Screenshot of terminal logon settings,SIMULATED sample answer
+HISS-F4-02,2,,SIMULATED sample answer: list exists but approvals are verbal
+HISS-F4-03,4,Enrolment report,SIMULATED sample answer
+HISS-F5-01,3,Baseline document per role,SIMULATED sample answer
+HISS-F5-02,3,Patch window schedule,SIMULATED sample answer
+HISS-F5-03,2,,SIMULATED sample answer
+HISS-H02-01,3,Card data flow diagram,SIMULATED sample answer
+HISS-H02-02,2,,SIMULATED sample answer
+HISS-H02-03,0,,SIMULATED sample answer
+HISS-H07-01,3,Approved remote access design,SIMULATED sample answer
+HISS-H07-02,2,,SIMULATED sample answer
+HISS-H07-03,

@@ -1,0 +1,17 @@
+domain,domain_name,controls,answered,mean_maturity,maturity_pct,met,met_pct,unmet,capped,capped_by_scan
+F1,Governance and multi property oversight,5,5,0.8,20.0,0,0.0,5,0,0
+F2,"Risk, assets and compliance",5,5,1.4,35.0,0,0.0,5,0,0
+F3,"People, shifts and shared devices",5,5,1.0,25.0,0,0.0,5,0,0
+F4,Identity and access,5,5,1.0,25.0,0,0.0,5,0,0
+F5,"Configuration, vulnerability and cryptography",5,5,1.0,25.0,0,0.0,5,0,0
+F6,"Detection, response and recovery",5,5,0.8,20.0,0,0.0,5,0,0
+H01,PMS and reservations,5,5,0.8,20.0,0,0.0,5,0,0
+H02,POS and payments,6,6,1.0,25.0,0,0.0,6,0,0
+H03,Guest Wi-Fi and in room tech,5,5,1.2,30.0,0,0.0,5,0,0
+H04,Door locks and key cards,4,4,1.0,25.0,0,0.0,4,0,0
+H05,Building management and IoT,5,5,0.4,10.0,0,0.0,5,0,0
+H06,CCTV,4,4,0.75,18.8,0,0.0,4,0,0
+H07,Vendor remote access,5,5,0.6,15.0,0,0.0,5,0,0
+H08,Guest data lifecycle,6,6,0.83,20.8,0,0.0,6,0,0
+H09,Cloud and SaaS,5,5,1.0,25.0,0,0.0,5,0,0
+H10,Third party and franchise management,5,5,1.0,25.0,0,0.0,5,0,0

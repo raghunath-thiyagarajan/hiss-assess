@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file."
+title: "HISS-Assess: Hospitality Information Security Standard Assessment Toolkit"
+type: software
+authors:
+  - family-names: "Thiyagarajan"
+    given-names: "Raghunath"
+version: "1.0"
+license: MIT
+abstract: "HISS-Assess is an offline Python toolkit that scores a hotel property against the HISS Framework v1.0 control catalogue. It produces maturity scores, coverage of reference standards, legal readiness by jurisdiction, a gap report, a remediation roadmap and a self contained HTML dashboard. It was built for a Year 2 capstone in MS Cyber Security at REVA University."
+keywords:
+  - hotel information security
+  - control framework
+  - maturity assessment
+  - standards crosswalk
+  - data protection law

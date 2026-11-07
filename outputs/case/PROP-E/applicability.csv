@@ -1,0 +1,81 @@
+control_id,domain,title,level,profiles,triggers,applicable,reason,active_triggers,accountable
+HISS-F1-01,F1,Group ISMS scope with property baselines,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F1-02,F1,Named security owner per property,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F1-03,F1,Hotel policy set,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F1-04,F1,Control applicability record,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F1-05,F1,Exception and operational override register,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F2-01,F2,Asset and software inventory including engineering assets,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F2-02,F2,Property risk assessment cycle,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F2-03,F2,Obligations register per jurisdiction,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F2-04,F2,Annual HISS self assessment,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F2-05,F2,Security metrics to owners,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,group
+HISS-F3-01,F3,First shift induction for all workers,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F3-02,F3,Leaver removal within the shift,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F3-03,F3,Front desk social engineering awareness,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F3-04,F3,Shared terminal rules,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F3-05,F3,Acceptable use for hotel roles,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F4-01,F4,Individual logons on shared terminals,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F4-02,F4,Privileged access,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F4-03,F4,"MFA for remote, admin and cloud access",Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F4-04,F4,Quarterly access review per property,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F4-05,F4,Service and interface accounts,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,group
+HISS-F5-01,F5,Role hardening baselines,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F5-02,F5,Patch windows that fit round the clock operation,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F5-03,F5,"TLS, SSH and certificate management",Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F5-04,F5,Credentialed scanning and yearly testing,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,group
+HISS-F5-05,F5,Malware protection,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F6-01,F6,Central logs kept for the longest legal need,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F6-02,F6,Security monitoring every day of the year,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,group
+HISS-F6-03,F6,Incident response with a notification clock matrix,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-F6-04,F6,Backup with offline copy and restore tests,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-F6-05,F6,Manual front desk fallback,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H01-01,H01,Role based PMS access,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H01-02,H01,Tokens not card numbers in the PMS,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H01-03,H01,Interface server in a protected zone,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H01-04,H01,PMS vendor patch and support status,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H01-05,H01,Reservation data export control,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,property
+HISS-H02-01,H02,Cardholder data environment scope per property,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H02-02,H02,Network separation of POS and payment terminals,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H02-03,H02,Payment terminal inspection,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H02-04,H02,"Acquirer, gateway and aggregator agreements",Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H02-05,H02,Card data retention limits,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H02-06,H02,PCI DSS validation evidence,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H03-01,H03,Guest network isolation,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H03-02,H03,Reservation linked guest access,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,property
+HISS-H03-03,H03,In room entertainment servers,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H03-04,H03,Casting and IPTV device hardening,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,property
+HISS-H03-05,H03,Guest device data wipe at checkout,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H04-01,H04,Lock server receives room number only,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H04-02,H04,Key encoder workstation hardening,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H04-03,H04,Mobile and online key security,Enhanced,M;G,T2,no,Enhanced control not listed for profile S and no trigger active (T2),,property
+HISS-H04-04,H04,Lock vendor access and audit trail,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H05-01,H05,Engineering asset inventory,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H05-02,H05,BMS and IoT segmentation,Enhanced,M;G,T3,yes,Enhanced control made mandatory by trigger T3,T3,property
+HISS-H05-03,H05,Default credential removal on engineering devices,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H05-04,H05,OEM access control,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H05-05,H05,Protocol exposure and engineering workstation review,Enhanced,M;G,T3,yes,Enhanced control made mandatory by trigger T3,T3,property
+HISS-H06-01,H06,Camera and recorder network separation,Enhanced,M;G,T3,yes,Enhanced control made mandatory by trigger T3,T3,property
+HISS-H06-02,H06,Footage retention and access,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H06-03,H06,Footage export logging,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H06-04,H06,CCTV signage and placement,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H07-01,H07,One approved remote access path,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H07-02,H07,Named vendor accounts,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H07-03,H07,Time windowed vendor access with approval,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H07-04,H07,Vendor session logging,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,group
+HISS-H07-05,H07,Removal of unapproved remote tools,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H08-01,H08,Guest data map from booking to archive,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H08-02,H08,Identity document capture and masking,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H08-03,H08,Legal guest register duties,Baseline,S;M;G,,yes,Baseline applies to every profile,,property
+HISS-H08-04,H08,Retention and deletion schedule,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H08-05,H08,Guest rights handling,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H08-06,H08,Minimisation in loyalty and marketing,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H09-01,H09,SaaS and cloud register,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H09-02,H09,Shared responsibility matrix per service,Enhanced,M;G,T4,no,Enhanced control not listed for profile S and no trigger active (T4),,group
+HISS-H09-03,H09,Provider assurance,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H09-04,H09,Cloud administrator protection,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H09-05,H09,Data location and transfer check,Enhanced,M;G,T5,yes,Enhanced control made mandatory by trigger T5,T5,group
+HISS-H10-01,H10,Supplier security clauses,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H10-02,H10,Critical vendor risk review,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,group
+HISS-H10-03,H10,Security schedule in franchise and management agreements,Baseline,S;M;G,,yes,Baseline applies to every profile,,group
+HISS-H10-04,H10,Brand and operator audit alignment,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,group
+HISS-H10-05,H10,Acquisition and onboarding assessment,Enhanced,M;G,,no,Enhanced control not listed for profile S and has no trigger,,group

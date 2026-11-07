@@ -1,0 +1,13 @@
+family_key,family_name,control_ids,note
+smb_signing,SMB signing not required,HISS-F5-01,sample mapping
+llmnr,LLMNR enabled,HISS-F5-01,sample mapping
+weak_certificates,"Untrusted, self signed, weak or expired certificates",HISS-F5-03,sample mapping
+legacy_tls_ssl,Legacy TLS and SSL,HISS-F5-03,sample mapping
+weak_ciphers,"SWEET32, RC4 and weak key exchange ciphers",HISS-F5-03,sample mapping
+remote_access_tools,Remote access tools,HISS-H07-01;HISS-F4-03,sample mapping
+rdp_no_nla,RDP without Network Level Authentication,HISS-F5-01;HISS-H07-01,sample mapping
+msmq_missing_patches,MSMQ QueueJumper and missing patches,HISS-F5-02,sample mapping
+unsupported_outdated_software,Unsupported or outdated software,HISS-F5-02,sample mapping
+cleartext_protocols,Cleartext and insecure legacy protocols,HISS-F5-03;HISS-H02-02,sample mapping
+legacy_simple_services,Legacy simple services and unneeded network responses,HISS-F5-01,sample mapping
+ssh_weakness,SSH weakness,HISS-F5-03;HISS-H07-03,sample mapping

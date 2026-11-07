@@ -1,0 +1,71 @@
+{
+  "_working": [
+    "Fixture 3: two properties rolled up to a group view, unanswered_as 2, jurisdiction parent and child tags, universe clause list.",
+    "ALPHA (profile G, 6 controls): all effective maturity 2 (G3 is blank and counts as 2). Overall 50.0 percent.",
+    "BETA (profile S, 5 Baseline controls): all 3. Overall 75.0 percent. Group maturity is the plain mean 62.5 and not the control weighted 61.4.",
+    "AE covers AE-DXB. The AE-DIFC duty needs T5, which is not active, and US-NY is not configured."
+  ],
+  "property": "ALPHA",
+  "config": {
+    "profile": "G", "operating_model": "owned", "triggers": [], "unanswered_as": 2,
+    "jurisdictions": {"AE": "what if"},
+    "properties": {
+      "ALPHA": {"profile": "G", "operating_model": "managed"},
+      "BETA": {"profile": "S"}
+    }
+  },
+  "controls": [
+    {"control_id": "G1", "domain": "F1", "level": "Baseline", "profiles": "S;M;G", "owner_managed": "vendor"},
+    {"control_id": "G2", "domain": "F1", "level": "Baseline", "profiles": "S;M;G", "owner_managed": "group"},
+    {"control_id": "G3", "domain": "F1", "level": "Baseline", "profiles": "S;M;G"},
+    {"control_id": "G4", "domain": "F2", "level": "Baseline", "profiles": "S;M;G"},
+    {"control_id": "G5", "domain": "F2", "level": "Baseline", "profiles": "S;M;G"},
+    {"control_id": "G6", "domain": "F2", "level": "Enhanced", "profiles": "M;G"}
+  ],
+  "answers": {
+    "ALPHA": {"G1": 2, "G2": 2, "G3": null, "G4": 2, "G5": 2, "G6": 2},
+    "BETA": {"G1": 3, "G2": 3, "G3": 3, "G4": 3, "G5": 3}
+  },
+  "crosswalk": [
+    ["G1", "CSF", "PR.AA", "D", "VERIFIED"],
+    ["G4", "CSF", "PR.DS", "P", "VERIFIED"]
+  ],
+  "universe": {"CSF": ["PR.AA", "PR.DS", "ID.AM", "GV.SC", "DE.CM"]},
+  "obligations": [
+    ["OBL-AE-1", "AE-DXB", "", "VERIFIED", "G1;G2;G6"],
+    ["OBL-AE-2", "AE-DIFC", "T5 guests from a listed jurisdiction", "VERIFIED", "G1"],
+    ["OBL-AE-3", "AE", "", "SECONDARY", "G4"],
+    ["OBL-US-1", "US-NY", "", "VERIFIED", "G1"]
+  ],
+  "expected": {
+    "ALPHA": {
+      "applicable": 6, "accountable": {"G1": "vendor", "G2": "group"},
+      "control_maturity": {"G1": 2, "G2": 2, "G3": 2, "G4": 2, "G5": 2, "G6": 2},
+      "domains": {"F1": {"maturity_pct": 50.0}, "F2": {"maturity_pct": 50.0}},
+      "property": {"maturity_pct": 50.0, "met_pct": 0.0, "completeness_pct": 83.3},
+      "jurisdiction": {"OBL-AE-1": {"readiness_pct": 50.0, "state": "not ready", "applicable_controls": 3},
+                       "summary": {"obligations_scored": 1, "ready_n": 0, "not_ready_n": 1, "tracking_n": 1, "readiness_pct": 50.0},
+                       "out_of_scope": 2}
+    },
+    "BETA": {
+      "applicable": 5,
+      "control_maturity": {"G1": 3, "G2": 3, "G3": 3, "G4": 3, "G5": 3},
+      "domains": {"F1": {"maturity_pct": 75.0}, "F2": {"maturity_pct": 75.0}},
+      "property": {"maturity_pct": 75.0, "met_pct": 100.0, "completeness_pct": 100.0},
+      "jurisdiction": {"OBL-AE-1": {"readiness_pct": 75.0, "state": "ready", "applicable_controls": 2, "linked_controls": 3},
+                       "summary": {"obligations_scored": 1, "ready_n": 1, "not_ready_n": 0, "tracking_n": 1, "readiness_pct": 75.0}}
+    },
+    "group": {
+      "group_maturity_pct": 62.5, "group_met_pct": 50.0,
+      "domain_mean_pct": {"F1": 62.5, "F2": 62.5},
+      "domain_matrix_F1": {"ALPHA": 50.0, "BETA": 75.0}
+    },
+    "alpha_with_t5": {"obligations_scored": 2, "out_of_scope": 1},
+    "standard_alpha": {
+      "CSF|PR.AA": {"indicative_pct": 50.0, "source_backed_pct": 50.0},
+      "CSF|PR.DS": {"indicative_pct": 25.0, "source_backed_pct": 0.0},
+      "summary": {"clauses_total": 5, "clauses_reached": 2, "clauses_unreached": 3, "unreached": ["ID.AM", "GV.SC", "DE.CM"],
+                  "source_backed_pct_universe": 10.0, "indicative_pct_universe": 15.0}
+    }
+  }
+}

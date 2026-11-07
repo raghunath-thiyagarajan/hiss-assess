@@ -1,0 +1,13 @@
+family_key,family_name,control_ids,note
+smb_signing,SMB signing not required,HISS-F5-01;HISS-F3-04,baseline requires SMB signing; shared folder rules limit relay targets
+llmnr,LLMNR enabled,HISS-F5-01,baseline disables LLMNR
+weak_certificates,"Untrusted, self signed, weak or expired certificates",HISS-F5-03,managed certificate source and inventory
+legacy_tls_ssl,"Legacy TLS and SSL (TLS 1.0, TLS 1.1, SSLv2, SSLv3)",HISS-F5-03;HISS-H03-03,legacy protocol versions disabled
+weak_ciphers,"SWEET32, RC4 and weak key exchange ciphers",HISS-F5-03,strong cipher suites only
+remote_access_tools,"Remote access tools (remote support tool, VNC, RDP exposure)",HISS-H07-01;HISS-H07-05;HISS-F4-03,one approved path and removal of unapproved tools
+rdp_no_nla,RDP without Network Level Authentication,HISS-H07-01;HISS-F4-03,RDP behind the gateway with network level authentication
+msmq_missing_patches,MSMQ QueueJumper and missing patches,HISS-F5-02;HISS-F5-04,patch windows and credentialed scanning
+unsupported_outdated_software,Unsupported or outdated software,HISS-H01-04;HISS-F2-01;HISS-F5-02,support end dates tracked and acted on
+cleartext_protocols,"Cleartext and insecure legacy protocols (FTP, SMTP, POP, IMAP, TFTP, NFS, rsync, SMBv1)",HISS-F5-01;HISS-H03-03,cleartext services removed from baselines and in room servers
+legacy_simple_services,Legacy simple services and unneeded network responses,HISS-F5-01;HISS-H01-03,legacy services disabled; interface server runs no other roles
+ssh_weakness,"SSH weakness (weak ciphers, MACs, Terrapin, password logon)",HISS-F5-03;HISS-H07-01,strong SSH algorithms and no internet exposure

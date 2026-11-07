@@ -1,0 +1,164 @@
+{
+  "framework": "HISS Framework v1.0",
+  "profiles": {
+    "S": {
+      "name": "Single property",
+      "description": "One property under about 75 rooms with no dedicated IT staff",
+      "levels": [
+        "Baseline"
+      ],
+      "enhanced_when_triggered": true,
+      "cis_analogy": "IG1",
+      "basis": "A20; analogy E28"
+    },
+    "M": {
+      "name": "Mid size property",
+      "description": "75 to 200 rooms or a property with shared IT support",
+      "levels": [
+        "Baseline",
+        "Enhanced"
+      ],
+      "enhanced_when_triggered": true,
+      "cis_analogy": "IG2",
+      "basis": "A20; analogy E28"
+    },
+    "G": {
+      "name": "Group or management company",
+      "description": "Several properties run with central IT",
+      "levels": [
+        "Baseline",
+        "Enhanced"
+      ],
+      "enhanced_when_triggered": true,
+      "cis_analogy": "IG2 to IG3",
+      "basis": "A20; analogy E28"
+    }
+  },
+  "level_rules": {
+    "Baseline": [
+      "S",
+      "M",
+      "G"
+    ],
+    "Enhanced": [
+      "M",
+      "G"
+    ],
+    "note": "A trigger listed on an Enhanced control makes it mandatory for profile S (A31)."
+  },
+  "triggers": {
+    "T1": "Stores card data electronically",
+    "T2": "Uses mobile or online keys",
+    "T3": "BMS or CCTV on the IP network",
+    "T4": "Cloud hosted PMS",
+    "T5": "Guests from a jurisdiction listed in the profile"
+  },
+  "operating_models": [
+    "owned",
+    "managed",
+    "franchised"
+  ],
+  "owner_values": [
+    "group",
+    "property",
+    "vendor",
+    "franchisee"
+  ],
+  "maturity_scale": {
+    "0": "Not in place",
+    "1": "Ad hoc",
+    "2": "Documented",
+    "3": "Implemented with evidence",
+    "4": "Measured and reviewed",
+    "met_at": 3,
+    "basis": "A24"
+  },
+  "strength_weights": {
+    "D": 1.0,
+    "P": 0.5,
+    "J": 0.25,
+    "basis": "A23"
+  },
+  "domains": {
+    "F1": {
+      "code": "GOV",
+      "name": "Governance and multi property oversight",
+      "objective": "Direct and oversee information security in the same way across every property under one accountable structure."
+    },
+    "F2": {
+      "code": "RAC",
+      "name": "Risk, assets and compliance",
+      "objective": "Know the assets, risks and legal duties of each property and measure progress against them."
+    },
+    "F3": {
+      "code": "PPL",
+      "name": "People, shifts and shared devices",
+      "objective": "Make every person who uses hotel systems able and accountable to work securely from the first shift."
+    },
+    "F4": {
+      "code": "IAM",
+      "name": "Identity and access",
+      "objective": "Tie every action on hotel systems to an identified person holding only the access the role needs."
+    },
+    "F5": {
+      "code": "OPS",
+      "name": "Configuration, vulnerability and cryptography",
+      "objective": "Keep hotel systems configured, patched and encrypted to a known baseline without breaking round the clock service."
+    },
+    "F6": {
+      "code": "DIR",
+      "name": "Detection, response and recovery",
+      "objective": "Detect, report and recover from incidents fast enough to meet legal clocks and keep guests served."
+    },
+    "H01": {
+      "code": "PMS",
+      "name": "PMS and reservations",
+      "objective": "Protect the PMS and reservation data as the core record of every guest stay."
+    },
+    "H02": {
+      "code": "POS",
+      "name": "POS and payments",
+      "objective": "Keep card data out of hotel systems where possible and protect the cardholder data environment where it remains."
+    },
+    "H03": {
+      "code": "WIFI",
+      "name": "Guest Wi-Fi and in room tech",
+      "objective": "Give guests connectivity and in room services without exposing hotel systems or other guests."
+    },
+    "H04": {
+      "code": "LOCK",
+      "name": "Door locks and key cards",
+      "objective": "Keep electronic locking systems trustworthy and free of guest personal data."
+    },
+    "H05": {
+      "code": "BMS",
+      "name": "Building management and IoT",
+      "objective": "Bring building and engineering systems under the same security discipline as IT systems."
+    },
+    "H06": {
+      "code": "CCTV",
+      "name": "CCTV",
+      "objective": "Operate CCTV lawfully and protect footage as personal data."
+    },
+    "H07": {
+      "code": "VRA",
+      "name": "Vendor remote access",
+      "objective": "Allow vendor support only through one controlled, attributable and recorded path."
+    },
+    "H08": {
+      "code": "GDL",
+      "name": "Guest data lifecycle",
+      "objective": "Handle guest data lawfully and minimally from booking to deletion."
+    },
+    "H09": {
+      "code": "CLD",
+      "name": "Cloud and SaaS",
+      "objective": "Know every cloud service holding hotel data and the security duties the hotel keeps for each."
+    },
+    "H10": {
+      "code": "TPM",
+      "name": "Third party and franchise management",
+      "objective": "Carry security requirements through supplier, franchise and management agreements and acquisitions."
+    }
+  }
+}

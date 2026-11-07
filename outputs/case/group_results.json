@@ -1,0 +1,160 @@
+{
+  "properties": [
+    "PROP-A",
+    "PROP-B",
+    "PROP-C",
+    "PROP-D",
+    "PROP-E",
+    "PROP-F"
+  ],
+  "group_maturity_pct": 23.0,
+  "group_met_pct": 0.0,
+  "domain_matrix": {
+    "F1": {
+      "PROP-A": 20.0,
+      "PROP-B": 20.0,
+      "PROP-C": 20.0,
+      "PROP-D": 20.0,
+      "PROP-E": 20.0,
+      "PROP-F": 20.0
+    },
+    "F2": {
+      "PROP-A": 35.0,
+      "PROP-B": 35.0,
+      "PROP-C": 35.0,
+      "PROP-D": 37.5,
+      "PROP-E": 37.5,
+      "PROP-F": 37.5
+    },
+    "F3": {
+      "PROP-A": 25.0,
+      "PROP-B": 25.0,
+      "PROP-C": 25.0,
+      "PROP-D": 25.0,
+      "PROP-E": 25.0,
+      "PROP-F": 25.0
+    },
+    "F4": {
+      "PROP-A": 25.0,
+      "PROP-B": 25.0,
+      "PROP-C": 25.0,
+      "PROP-D": 25.0,
+      "PROP-E": 25.0,
+      "PROP-F": 25.0
+    },
+    "F5": {
+      "PROP-A": 30.0,
+      "PROP-B": 30.0,
+      "PROP-C": 25.0,
+      "PROP-D": 25.0,
+      "PROP-E": 25.0,
+      "PROP-F": 25.0
+    },
+    "F6": {
+      "PROP-A": 20.0,
+      "PROP-B": 20.0,
+      "PROP-C": 20.0,
+      "PROP-D": 18.8,
+      "PROP-E": 18.8,
+      "PROP-F": 18.8
+    },
+    "H01": {
+      "PROP-A": 20.0,
+      "PROP-B": 20.0,
+      "PROP-C": 20.0,
+      "PROP-D": 25.0,
+      "PROP-E": 25.0,
+      "PROP-F": 25.0
+    },
+    "H02": {
+      "PROP-A": 25.0,
+      "PROP-B": 25.0,
+      "PROP-C": 25.0,
+      "PROP-D": 25.0,
+      "PROP-E": 25.0,
+      "PROP-F": 25.0
+    },
+    "H03": {
+      "PROP-A": 30.0,
+      "PROP-B": 30.0,
+      "PROP-C": 30.0,
+      "PROP-D": 33.3,
+      "PROP-E": 33.3,
+      "PROP-F": 33.3
+    },
+    "H04": {
+      "PROP-A": 25.0,
+      "PROP-B": 25.0,
+      "PROP-C": 25.0,
+      "PROP-D": 25.0,
+      "PROP-E": 25.0,
+      "PROP-F": 25.0
+    },
+    "H05": {
+      "PROP-A": 10.0,
+      "PROP-B": 10.0,
+      "PROP-C": 10.0,
+      "PROP-D": 10.0,
+      "PROP-E": 10.0,
+      "PROP-F": 10.0
+    },
+    "H06": {
+      "PROP-A": 18.8,
+      "PROP-B": 18.8,
+      "PROP-C": 18.8,
+      "PROP-D": 18.8,
+      "PROP-E": 18.8,
+      "PROP-F": 18.8
+    },
+    "H07": {
+      "PROP-A": 15.0,
+      "PROP-B": 15.0,
+      "PROP-C": 15.0,
+      "PROP-D": 18.8,
+      "PROP-E": 18.8,
+      "PROP-F": 18.8
+    },
+    "H08": {
+      "PROP-A": 20.8,
+      "PROP-B": 20.8,
+      "PROP-C": 20.8,
+      "PROP-D": 20.8,
+      "PROP-E": 20.8,
+      "PROP-F": 20.8
+    },
+    "H09": {
+      "PROP-A": 25.0,
+      "PROP-B": 25.0,
+      "PROP-C": 25.0,
+      "PROP-D": 25.0,
+      "PROP-E": 25.0,
+      "PROP-F": 25.0
+    },
+    "H10": {
+      "PROP-A": 25.0,
+      "PROP-B": 25.0,
+      "PROP-C": 25.0,
+      "PROP-D": 25.0,
+      "PROP-E": 25.0,
+      "PROP-F": 25.0
+    }
+  },
+  "domain_mean_pct": {
+    "F1": 20.0,
+    "F2": 36.2,
+    "F3": 25.0,
+    "F4": 25.0,
+    "F5": 26.7,
+    "F6": 19.4,
+    "H01": 22.5,
+    "H02": 25.0,
+    "H03": 31.6,
+    "H04": 25.0,
+    "H05": 10.0,
+    "H06": 18.8,
+    "H07": 16.9,
+    "H08": 20.8,
+    "H09": 25.0,
+    "H10": 25.0
+  }
+}

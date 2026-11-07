@@ -1,0 +1,68 @@
+control_id,maturity,evidence_ref,comment,input_tag
+HISS-F1-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F1-02,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F1-03,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F1-04,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F1-05,0,E17,A26 simulated. B0 base 0: operations staff override IT standards and no register of overrides exists. Result 0.,A26 simulated
+HISS-F2-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F2-02,2,E14,A26 simulated. B2 base 2: risk matrix with ten generic risks exists but is unscored and every risk is open. Result 2.,A26 simulated
+HISS-F2-03,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F2-04,2,E16; E18,A26 simulated. B2 base 2: generic IT assessment template and a Phase 1 assessment exist. Result 2.,A26 simulated
+HISS-F3-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F3-02,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F3-03,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F3-04,1,E20; HISS-RAT smb_signing,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. F2 smb_signing Medium on 3 of 3 systems. Result 1.",A26 simulated
+HISS-F3-05,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F4-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F4-02,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F4-03,1,E20; HISS-RAT remote_access_tools; HISS-RAT rdp_no_nla,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. F4 remote_access_tools Info on 1 of 3 systems. F3 rdp_no_nla Medium on 1 of 3 systems. Result 1.",A26 simulated
+HISS-F4-04,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F5-01,1,E20; HISS-RAT smb_signing; HISS-RAT llmnr,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. F2 smb_signing Medium on 3 of 3 systems. F4 llmnr Info on 3 of 3 systems. Result 1.",A26 simulated
+HISS-F5-02,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F5-03,1,E20; HISS-RAT weak_certificates; HISS-RAT legacy_tls_ssl; HISS-RAT weak_ciphers,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. F2 weak_certificates Medium on 2 of 3 systems. F3 legacy_tls_ssl Medium on 1 of 3 systems. F1 weak_ciphers High on 1 of 3 systems. Result 1.",A26 simulated
+HISS-F5-05,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F6-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F6-03,0,A18; E20,A26 simulated. B0 base 0: no tested incident response plan. Result 0.,A26 simulated
+HISS-F6-04,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-F6-05,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H01-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H01-02,2,A09,A26 simulated. B2 base 2: PMS assumed to hold tokens or masked card numbers. Result 2.,A26 simulated
+HISS-H01-03,0,A08; E12,A26 simulated. B0 base 0: no internal segmentation assumed on a likely flat network. Result 0.,A26 simulated
+HISS-H01-04,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H02-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H02-02,0,A08; E12,A26 simulated. B0 base 0: no internal segmentation assumed on a likely flat network. Result 0.,A26 simulated
+HISS-H02-03,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H02-04,2,A17,A26 simulated. B2 base 2: card handling through the acquirer implies an acquirer agreement. Result 2.,A26 simulated
+HISS-H02-05,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H02-06,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H03-01,2,A08; E10,A26 simulated. B2 base 2: guest Wi-Fi assumed separate from back office through the guest internet platform gateway. Result 2.,A26 simulated
+HISS-H03-03,1,E20; HISS-RAT legacy_tls_ssl,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. F3 legacy_tls_ssl Medium on 1 of 3 systems. Result 1.",A26 simulated
+HISS-H03-05,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H04-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H04-02,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H04-04,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H05-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H05-02,0,A08; E12,A26 simulated. B0 base 0: no internal segmentation assumed on a likely flat network. Result 0.,A26 simulated
+HISS-H05-03,0,A14,A26 simulated. B0 base 0: default credentials assumed on some controllers. Result 0.,A26 simulated
+HISS-H05-04,0,A14,A26 simulated. B0 base 0: OEM remote access assumed through shared accounts. Result 0.,A26 simulated
+HISS-H05-05,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H06-01,0,A08; E12,A26 simulated. B0 base 0: no internal segmentation assumed on a likely flat network. Result 0.,A26 simulated
+HISS-H06-02,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H06-03,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H06-04,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H07-01,1,E20; HISS-RAT remote_access_tools; HISS-RAT rdp_no_nla,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. F4 remote_access_tools Info on 1 of 3 systems. F3 rdp_no_nla Medium on 1 of 3 systems. Result 1.",A26 simulated
+HISS-H07-02,0,A14,A26 simulated. B0 base 0: vendor access assumed through shared accounts. Result 0.,A26 simulated
+HISS-H07-03,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H07-05,1,E20; HISS-RAT remote_access_tools,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. F4 remote_access_tools Info on 1 of 3 systems. Result 1.",A26 simulated
+HISS-H08-01,0,A10; E20,"A26 simulated. B0 base 0: no classification scheme or data map found, absence assumed (Section 10.7). Result 0.",A26 simulated
+HISS-H08-02,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H08-03,2,A10,A26 simulated. B2 base 2: Form C records for foreign guests assumed as routine practice. Result 2.,A26 simulated
+HISS-H08-04,0,A10; E20,A26 simulated. B0 base 0: no retention rule seen and retention longer than needed assumed. Result 0.,A26 simulated
+HISS-H08-05,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H08-06,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H09-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H09-03,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H09-04,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H09-05,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H10-01,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated
+HISS-H10-03,1,E20,"A26 simulated. B1 base 1: practice not shown in the Capstone 1 files, ad hoc assumed. Result 1.",A26 simulated

@@ -1,0 +1,8 @@
+reality_id,name,description
+R1,Round the clock operation,Front desks and key systems run all day and night so there is little time for maintenance.
+R2,Seasonal and outsourced staff,Staff change often and many work for contractors.
+R3,Shared devices,Terminals and workstations pass between staff on every shift.
+R4,Multi property operation,Several sites share vendors and accounts and sometimes networks.
+R5,Franchise or managed model,Responsibility for security is split between owner operator and brand.
+R6,Mixed guest data,Card data identity documents and CCTV sit under several legal regimes.
+R7,Operational override,Staff bypass controls to keep service running and the bypass is not recorded.

@@ -1,0 +1,6 @@
+obligation_id,jurisdiction,instrument,provision,summary,hotel_trigger,status,fact_ref,control_ids
+OBL-IN-01,IN,Sample incident reporting direction,Reporting of cyber incidents within six hours,Certain cyber incidents are reported to the national response team within six hours and logs are kept for 180 days.,Any hotel in scope,VERIFIED,E33,HISS-H07-03;HISS-F4-02
+OBL-IN-02,IN,Sample data protection rules,Detailed breach report within 72 hours,A detailed breach report follows the first notice within 72 hours. Reported by a secondary source only.,Any hotel in scope,SECONDARY,E32,HISS-F5-03
+OBL-EU-01,EU,Sample general data protection regulation,Security of processing,Appropriate technical measures protect personal data including access control and encryption.,T5 guests from a listed jurisdiction,VERIFIED,E40,HISS-F4-03;HISS-F5-03;HISS-H02-03
+OBL-AE-01,AE,Sample federal personal data law,Breach notice to the data office,A personal data breach is notified to the data office.,T5 guests from a listed jurisdiction,VERIFIED,E37,HISS-F4-01;HISS-H07-02
+OBL-US-NY-01,US-NY,Sample state breach notice law,Notice of breach of private information,Affected residents are told about a breach of private information within a set period.,T5 guests from a listed jurisdiction,VERIFIED,E42,HISS-H02-01;HISS-H02-02

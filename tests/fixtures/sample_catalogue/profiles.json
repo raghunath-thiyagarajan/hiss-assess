@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "S": {
+      "name": "Single property",
+      "description": "Single property under about 75 rooms with no dedicated IT staff (assumed)."
+    },
+    "M": {
+      "name": "Mid size property",
+      "description": "75 to 200 rooms or a property with shared IT support (assumed)."
+    },
+    "G": {
+      "name": "Group",
+      "description": "Group or management company running several properties with central IT (assumed)."
+    }
+  },
+  "triggers": {
+    "T1": "Card data is stored electronically",
+    "T2": "Mobile or online keys are used",
+    "T3": "BMS or CCTV sits on the IP network",
+    "T4": "Property management system is cloud hosted",
+    "T5": "Guests come from a listed jurisdiction"
+  },
+  "operating_models": [
+    "owned",
+    "managed",
+    "franchised"
+  ]
+}

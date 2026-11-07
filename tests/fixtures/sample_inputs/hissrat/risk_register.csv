@@ -1,0 +1,5 @@
+rank,system_id,property,role,role_group,tier,tier_weight,critical,high,medium,low,info,technical_score,risk_score,system_index,risk_band
+1,SAMPLEHOTEL-SQL-01,SAMPLEHOTEL,SQL server,SQL and SQL backup,1,5,1,1,1,0,5,19,95,100.0,High
+2,SAMPLEHOTEL-AD-01,SAMPLEHOTEL,AD (domain controller),AD,1,5,0,1,1,0,3,9,45,47.4,Medium
+3,SAMPLEHOTEL-FD-01,SAMPLEHOTEL,Front desk,Front desk and front office,2,3,0,0,1,1,2,4,12,12.6,Low
+4,SAMPLEHOTEL-DSK-01,SAMPLEHOTEL,Desktop,Other desktops and managers,4,1,0,0,0,0,4,0,0,0.0,None

@@ -1,0 +1,146 @@
+{
+ "_note": "Validation case (WP4) settings. Every weight, cap, effort size, cut off, profile, trigger and jurisdiction choice is ASSUMED (register A20 to A31). Answers in inputs/ are SIMULATED (A26). Profiles follow the Capstone 1 size classes (A01) and thresholds (A20). Triggers: T1 on because the PMS is assumed to hold tokens or masked card numbers (A09); T3 on because CCTV and building systems are assumed to share the IP network (A08, A13); T5 on because foreign guests are registered under Form C (A10); T2 and T4 off because no mobile keys or cloud hosted PMS appear in the files (E10, E12, A06, A11). Jurisdiction: India only, the actual basis (A27). Operating model owned and centrally managed (A28).",
+ "profile": "M",
+ "operating_model": "owned",
+ "triggers": [
+  "T1",
+  "T3",
+  "T5"
+ ],
+ "jurisdictions": {
+  "IN": "actual"
+ },
+ "input_status": "simulated",
+ "input_tag": "A26",
+ "met_threshold": 3,
+ "target_maturity": 3,
+ "unanswered_as": 0,
+ "strength_weights": {
+  "D": 1.0,
+  "P": 0.5,
+  "J": 0.25
+ },
+ "finding_caps": {
+  "Critical": 1,
+  "High": 1,
+  "Medium": 2
+ },
+ "level_weights": {
+  "Baseline": 2.0,
+  "Enhanced": 1.0
+ },
+ "tier_weights": {
+  "1": 5,
+  "2": 3,
+  "3": 2,
+  "4": 1
+ },
+ "default_tier": 2,
+ "domain_default_tier": {
+  "F1": 2,
+  "F2": 2,
+  "F3": 2,
+  "F4": 1,
+  "F5": 1,
+  "F6": 1,
+  "H01": 1,
+  "H02": 1,
+  "H03": 3,
+  "H04": 2,
+  "H05": 3,
+  "H06": 3,
+  "H07": 1,
+  "H08": 2,
+  "H09": 2,
+  "H10": 2
+ },
+ "effort_weights": {
+  "S": 1,
+  "M": 2,
+  "L": 3
+ },
+ "effort_person_days": {
+  "S": "1 to 5",
+  "M": "5 to 20",
+  "L": "20 to 60"
+ },
+ "default_effort": "M",
+ "effort_by_domain": {
+  "F1": "S",
+  "F2": "S",
+  "F3": "S",
+  "F6": "L",
+  "H05": "L",
+  "H03": "L",
+  "H04": "L"
+ },
+ "effort_by_control": {},
+ "waves": {
+  "wave1_min_priority": 10,
+  "wave2_min_priority": 4,
+  "labels": {
+   "1": "Wave 1 (0 to 90 days)",
+   "2": "Wave 2 (3 to 6 months)",
+   "3": "Wave 3 (6 to 12 months)"
+  }
+ },
+ "wave_overrides": {},
+ "iso_only_specific_req_ids": [],
+ "hissrat": {
+  "role_tier": {
+   "pms": 1,
+   "sql": 1,
+   "sqlbackup": 1,
+   "ad": 1,
+   "interface": 1,
+   "accounting": 2,
+   "finance": 2,
+   "accounts": 2,
+   "frontdesk": 2,
+   "frontoffice": 2,
+   "fnb_controls": 2,
+   "fnb_manager": 2,
+   "guest_internet": 2,
+   "inroom": 3,
+   "inroom_gw": 3,
+   "hr": 4,
+   "itsystem": 4,
+   "backoffice": 4,
+   "desktop": 4,
+   "admin": 4
+  }
+ },
+ "properties": {
+  "PROP-A": {
+   "label": "PROP-A",
+   "profile": "M"
+  },
+  "PROP-B": {
+   "label": "PROP-B",
+   "profile": "M"
+  },
+  "PROP-C": {
+   "label": "PROP-C",
+   "profile": "M"
+  },
+  "PROP-D": {
+   "label": "PROP-D",
+   "profile": "S"
+  },
+  "PROP-E": {
+   "label": "PROP-E",
+   "profile": "S"
+  },
+  "PROP-F": {
+   "label": "PROP-F",
+   "profile": "S"
+  },
+  "GROUP": {
+   "label": "Group wide view",
+   "profile": "G",
+   "hissrat": {
+    "properties": "all"
+   }
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+  "_working": [
+    "Fixture 2: profile S with trigger T4 active, HISS-RAT caps, roadmap priorities and waves.",
+    "D4 is Enhanced with trigger T4 so it becomes mandatory for S. D5 is Enhanced with trigger T3 (not active) so it does not apply.",
+    "Caps: D1 and D2 capped at 1 (Critical on S1), D3 cap 2 (Medium, equals its own value so not capped), D4 cap 1 (High).",
+    "Effective maturity D1 1, D2 1, D3 2, D4 1, D6 4. Roadmap priorities D1 20, D2 10, D3 4, D4 1.33 (waves 1, 1, 2, 3)."
+  ],
+  "property": "P",
+  "config": {
+    "profile": "S", "operating_model": "owned", "triggers": ["T4"], "jurisdictions": {},
+    "effort_by_control": {"D1": "S", "D3": "S", "D4": "L"}
+  },
+  "controls": [
+    {"control_id": "D1", "domain": "F5", "level": "Baseline", "profiles": "S;M;G"},
+    {"control_id": "D2", "domain": "F5", "level": "Baseline", "profiles": "S;M;G"},
+    {"control_id": "D3", "domain": "H01", "level": "Baseline", "profiles": "S;M;G"},
+    {"control_id": "D4", "domain": "H09", "level": "Enhanced", "profiles": "M;G", "triggers": "T4"},
+    {"control_id": "D5", "domain": "H06", "level": "Enhanced", "profiles": "M;G", "triggers": "T3"},
+    {"control_id": "D6", "domain": "H01", "level": "Baseline", "profiles": "S;M;G"}
+  ],
+  "answers": {"P": {"D1": 4, "D2": 3, "D3": 2, "D4": 4, "D5": 3, "D6": 4}},
+  "families": {"famA": ["D1", "D2"], "famB": ["D3"], "famC": ["D4"]},
+  "systems": [
+    {"system_id": "S1", "property": "P", "tier": 1},
+    {"system_id": "S2", "property": "P", "tier": 3},
+    {"system_id": "S3", "property": "Q", "tier": 1}
+  ],
+  "findings": [
+    {"system_id": "S1", "severity": "Critical", "family": "famA", "plugin_name": "f1"},
+    {"system_id": "S2", "severity": "Medium", "family": "famA", "plugin_name": "f2"},
+    {"system_id": "S2", "severity": "Medium", "family": "famB", "plugin_name": "f3"},
+    {"system_id": "S2", "severity": "High", "family": "famC", "plugin_name": "f4"},
+    {"system_id": "S1", "severity": "Low", "family": "famB", "plugin_name": "f5"},
+    {"system_id": "S3", "severity": "Critical", "family": "famB", "plugin_name": "f6"}
+  ],
+  "crosswalk": [
+    ["D1", "CSF", "PR.PS", "D", "VERIFIED"],
+    ["D2", "CSF", "PR.PS", "P", "VERIFIED"],
+    ["D2", "ISO27001", "A.8.9", "P", "VERIFIED"],
+    ["D6", "ISO27001", "A.8.9", "J", "VERIFIED"],
+    ["D5", "ISO27001", "A.8.9", "D", "VERIFIED"],
+    ["D4", "CCM", "CEK", "J", "NOT VERIFIED"],
+    ["D6", "CIS", "4", "D", "VERIFIED"],
+    ["D3", "CIS", "4", "P", "VERIFIED"]
+  ],
+  "expected": {
+    "applicable": ["D1", "D2", "D3", "D4", "D6"],
+    "caps": {"D1": 1, "D2": 1, "D3": 2, "D4": 1},
+    "cap_tiers": {"D1": [1, 3], "D2": [1, 3], "D3": [3], "D4": [3]},
+    "control_maturity": {"D1": 1, "D2": 1, "D3": 2, "D4": 1, "D6": 4},
+    "control_capped": {"D1": "yes", "D2": "yes", "D3": "no", "D4": "yes", "D6": "no"},
+    "domains": {
+      "F5": {"mean_maturity": 1.0, "maturity_pct": 25.0, "met": 0, "met_pct": 0.0, "capped": 2},
+      "H01": {"mean_maturity": 3.0, "maturity_pct": 75.0, "met": 1, "met_pct": 50.0, "capped": 0},
+      "H09": {"mean_maturity": 1.0, "maturity_pct": 25.0, "met": 0, "met_pct": 0.0, "capped": 1}
+    },
+    "property": {"mean_maturity": 1.8, "maturity_pct": 45.0, "met": 1, "met_pct": 20.0,
+                 "completeness_pct": 100.0, "domain_mean_pct": 41.7},
+    "roadmap": [
+      {"control_id": "D1", "priority": 20.0, "wave": 1, "tier": 1, "gap": 2},
+      {"control_id": "D2", "priority": 10.0, "wave": 1, "tier": 1, "gap": 2},
+      {"control_id": "D3", "priority": 4.0, "wave": 2, "tier": 3, "gap": 1},
+      {"control_id": "D4", "priority": 1.33, "wave": 3, "tier": 3, "gap": 2}
+    ],
+    "wave_counts": {"1": 2, "2": 1, "3": 1},
+    "standard": {
+      "CSF|PR.PS": {"indicative_pct": 25.0, "source_backed_pct": 25.0, "best_control": "D1"},
+      "ISO27001|A.8.9": {"indicative_pct": 25.0, "source_backed_pct": 0.0, "best_control": "D6", "mapped_controls": 2},
+      "CIS|4": {"indicative_pct": 100.0, "source_backed_pct": 100.0, "best_control": "D6"}
+    }
+  }
+}

@@ -1,0 +1,516 @@
+control_id,framework,target_id,target_title,strength,source,target_status,note
+HISS-F1-01,ISO27001,C.4.3,Determining the scope of the information security management system,P,,VERIFIED,"ISMS clause, scored separately from Annex A"
+HISS-F1-01,ISO27001,A.5.1,Policies for information security,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F1-01,CIS,1,Inventory and Control of Enterprise Assets,J,,VERIFIED,no CIS v8.1 control number for governance in the fact files; nearest control judged
+HISS-F1-01,PCIDSS,12,Support Information Security with Organizational Policies and Programs,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F1-01,CSF,GV.OC,Organizational Context,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.OC-04
+HISS-F1-01,CSF,GV.PO,Policy,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.PO-01
+HISS-F1-01,CCM,GRC,"Governance, Risk Management and Compliance",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F1-02,ISO27001,A.5.2,Information security roles and responsibilities,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F1-02,ISO27001,C.5.3,"Organizational roles, responsibilities and authorities",P,,VERIFIED,"ISMS clause, scored separately from Annex A"
+HISS-F1-02,CIS,17,Incident Response Management,J,,VERIFIED,no CIS v8.1 control number for governance in the fact files; nearest control judged
+HISS-F1-02,PCIDSS,12,Support Information Security with Organizational Policies and Programs,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F1-02,CSF,GV.RR,"Roles, Responsibilities and Authorities",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.RR-02
+HISS-F1-02,CCM,GRC,"Governance, Risk Management and Compliance",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F1-03,ISO27001,A.5.1,Policies for information security,D,NIST OLIR CSF 2.0 informative reference GV.PO-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for GV.PO-01
+HISS-F1-03,ISO27001,A.5.37,Documented operating procedures,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F1-03,CIS,14,Security Awareness and Skills Training,J,,VERIFIED,no CIS v8.1 control number for governance in the fact files; nearest control judged
+HISS-F1-03,PCIDSS,12,Support Information Security with Organizational Policies and Programs,D,NIST OLIR CSF 2.0 informative reference GV.PO-01,VERIFIED,principal requirement level (INT B1); OLIR lists this target for GV.PO-01
+HISS-F1-03,CSF,GV.PO,Policy,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.PO-01 GV.PO-02
+HISS-F1-03,CCM,GRC,"Governance, Risk Management and Compliance",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F1-04,ISO27001,C.6.1.3,Information security risk treatment,P,,VERIFIED,"ISMS clause, scored separately from Annex A"
+HISS-F1-04,CIS,1,Inventory and Control of Enterprise Assets,J,,VERIFIED,no CIS v8.1 control number for governance in the fact files; nearest control judged
+HISS-F1-04,CSF,ID.RA,Risk Assessment,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.RA-06
+HISS-F1-04,CSF,GV.RM,Risk Management Strategy,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.RM-04
+HISS-F1-04,CCM,GRC,"Governance, Risk Management and Compliance",J,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F1-05,ISO27001,C.6.1.3,Information security risk treatment,P,,VERIFIED,"ISMS clause, scored separately from Annex A"
+HISS-F1-05,ISO27001,A.5.36,"Compliance with policies, rules and standards for information security",J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F1-05,CIS,4,Secure Configuration of Enterprise Assets and Software,J,,VERIFIED,no CIS v8.1 control number for governance in the fact files; nearest control judged
+HISS-F1-05,PCIDSS,12,Support Information Security with Organizational Policies and Programs,J,,VERIFIED,principal requirement level (INT B1)
+HISS-F1-05,CSF,ID.RA,Risk Assessment,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.RA-07
+HISS-F1-05,CSF,GV.RM,Risk Management Strategy,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.RM-04
+HISS-F1-05,CCM,GRC,"Governance, Risk Management and Compliance",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F2-01,ISO27001,A.5.9,Inventory of information and other associated assets,D,NIST OLIR CSF 2.0 informative reference ID.AM-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for ID.AM-01
+HISS-F2-01,CIS,1.1,Safeguard under Control 1 Inventory and Control of Enterprise Assets,D,NIST OLIR CSF 2.0 informative reference ID.AM-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for ID.AM-01
+HISS-F2-01,CIS,2.1,Safeguard under Control 2 Inventory and Control of Software Assets,D,NIST OLIR CSF 2.0 informative reference ID.AM-02,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for ID.AM-02
+HISS-F2-01,PCIDSS,12,Support Information Security with Organizational Policies and Programs,J,,VERIFIED,principal requirement level (INT B1)
+HISS-F2-01,CSF,ID.AM,Asset Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.AM-01 ID.AM-02
+HISS-F2-01,CCM,UEM,Universal Endpoint Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F2-02,ISO27001,C.6.1.2,Information security risk assessment,P,,VERIFIED,"ISMS clause, scored separately from Annex A"
+HISS-F2-02,ISO27001,C.8.2,Information security risk assessment,P,,VERIFIED,"ISMS clause, scored separately from Annex A"
+HISS-F2-02,CIS,7,Continuous Vulnerability Management,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F2-02,PCIDSS,12,Support Information Security with Organizational Policies and Programs,D,NIST OLIR CSF 2.0 informative reference ID.RA-04,VERIFIED,principal requirement level (INT B1); OLIR lists this target for ID.RA-04
+HISS-F2-02,CSF,ID.RA,Risk Assessment,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.RA-04
+HISS-F2-02,CSF,GV.RM,Risk Management Strategy,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.RM-06
+HISS-F2-02,CCM,GRC,"Governance, Risk Management and Compliance",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F2-03,ISO27001,A.5.31,"Legal, statutory, regulatory and contractual requirements",D,NIST OLIR CSF 2.0 informative reference GV.OC-03,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for GV.OC-03
+HISS-F2-03,CIS,3,Data Protection,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F2-03,PCIDSS,12,Support Information Security with Organizational Policies and Programs,J,,VERIFIED,principal requirement level (INT B1)
+HISS-F2-03,CSF,GV.OC,Organizational Context,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.OC-03
+HISS-F2-03,CCM,GRC,"Governance, Risk Management and Compliance",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F2-04,ISO27001,A.5.35,Independent review of information security,D,NIST OLIR CSF 2.0 informative reference ID.IM-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for ID.IM-01
+HISS-F2-04,ISO27001,A.5.36,"Compliance with policies, rules and standards for information security",P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F2-04,CIS,18,Penetration Testing,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F2-04,PCIDSS,12,Support Information Security with Organizational Policies and Programs,J,,VERIFIED,principal requirement level (INT B1)
+HISS-F2-04,CSF,ID.IM,Improvement,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.IM-01
+HISS-F2-04,CSF,GV.OV,Oversight,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.OV-03
+HISS-F2-04,CCM,A&A,Audit and Assurance,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F2-05,ISO27001,C.9.3.2,Management review inputs,P,,VERIFIED,"ISMS clause, scored separately from Annex A"
+HISS-F2-05,ISO27001,A.5.36,"Compliance with policies, rules and standards for information security",J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F2-05,CIS,7,Continuous Vulnerability Management,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F2-05,PCIDSS,12,Support Information Security with Organizational Policies and Programs,J,,VERIFIED,principal requirement level (INT B1)
+HISS-F2-05,CSF,GV.OV,Oversight,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.OV-03
+HISS-F2-05,CCM,GRC,"Governance, Risk Management and Compliance",J,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F3-01,ISO27001,A.6.3,"Information security awareness, education and training",D,NIST OLIR CSF 2.0 informative reference PR.AT-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for PR.AT-01
+HISS-F3-01,ISO27001,A.6.2,Terms and conditions of employment,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F3-01,CIS,14.1,Safeguard under Control 14 Security Awareness and Skills Training,D,NIST OLIR CSF 2.0 informative reference PR.AT-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.AT-01
+HISS-F3-01,PCIDSS,12,Support Information Security with Organizational Policies and Programs,D,NIST OLIR CSF 2.0 informative reference PR.AT-01,VERIFIED,principal requirement level (INT B1); OLIR lists this target for PR.AT-01
+HISS-F3-01,CSF,PR.AT,Awareness and Training,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AT-01
+HISS-F3-01,CCM,HRS,Human Resources Security,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F3-02,ISO27001,A.5.18,Access rights,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F3-02,ISO27001,A.5.11,Return of assets,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F3-02,ISO27001,A.6.5,Responsibilities after termination or change of employment,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F3-02,CIS,5,Account Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F3-02,CIS,6,Access Control Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F3-02,PCIDSS,8,Identify Users and Authenticate Access to System Components,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F3-02,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-01
+HISS-F3-02,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F3-03,ISO27001,A.6.3,"Information security awareness, education and training",D,NIST OLIR CSF 2.0 informative reference PR.AT-02,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for PR.AT-02
+HISS-F3-03,CIS,14.9,Safeguard under Control 14 Security Awareness and Skills Training,D,NIST OLIR CSF 2.0 informative reference PR.AT-02,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.AT-02
+HISS-F3-03,PCIDSS,12,Support Information Security with Organizational Policies and Programs,J,,VERIFIED,principal requirement level (INT B1)
+HISS-F3-03,CSF,PR.AT,Awareness and Training,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AT-02
+HISS-F3-03,CCM,HRS,Human Resources Security,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F3-04,ISO27001,A.7.7,Clear desk and clear screen,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F3-04,ISO27001,A.8.1,User endpoint devices,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F3-04,CIS,4,Secure Configuration of Enterprise Assets and Software,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F3-04,PCIDSS,8,Identify Users and Authenticate Access to System Components,J,,VERIFIED,principal requirement level (INT B1)
+HISS-F3-04,CSF,PR.PS,Platform Security,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-01
+HISS-F3-04,CCM,UEM,Universal Endpoint Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F3-05,ISO27001,A.5.10,Acceptable use of information and other associated assets,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F3-05,ISO27001,A.6.2,Terms and conditions of employment,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F3-05,CIS,14,Security Awareness and Skills Training,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F3-05,PCIDSS,12,Support Information Security with Organizational Policies and Programs,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F3-05,CSF,PR.AT,Awareness and Training,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AT-01
+HISS-F3-05,CCM,HRS,Human Resources Security,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F4-01,ISO27001,A.5.16,Identity management,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F4-01,ISO27001,A.8.5,Secure authentication,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F4-01,CIS,5,Account Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F4-01,PCIDSS,8,Identify Users and Authenticate Access to System Components,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F4-01,SP1800-27,Role based authentication and access control,SP 1800-27 Vol B security characteristic,P,,VERIFIED,INT C5
+HISS-F4-01,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-01 PR.AA-03
+HISS-F4-01,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F4-02,ISO27001,A.8.2,Privileged access rights,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F4-02,ISO27001,A.8.18,Use of privileged utility programs,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F4-02,CIS,5,Account Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F4-02,CIS,6,Access Control Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F4-02,PCIDSS,7,Restrict Access to System Components and Cardholder Data by Business Need to Know,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F4-02,PCIDSS,8,Identify Users and Authenticate Access to System Components,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F4-02,SP1800-27,Protection against lateral movement and privilege escalation,SP 1800-27 Vol B security characteristic,P,,VERIFIED,INT C5
+HISS-F4-02,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-05
+HISS-F4-02,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F4-03,ISO27001,A.8.5,Secure authentication,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F4-03,CIS,6,Access Control Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F4-03,PCIDSS,8,Identify Users and Authenticate Access to System Components,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F4-03,PCIDSS,8.4.3,Sub requirement of Requirement 8 (number web checked in Capstone 1),P,,VERIFIED,sub requirement number from E43
+HISS-F4-03,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-03
+HISS-F4-03,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F4-04,ISO27001,A.5.18,Access rights,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F4-04,ISO27001,A.5.15,Access control,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F4-04,CIS,5,Account Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F4-04,CIS,6,Access Control Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F4-04,PCIDSS,7,Restrict Access to System Components and Cardholder Data by Business Need to Know,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F4-04,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-05
+HISS-F4-04,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F4-05,ISO27001,A.5.17,Authentication information,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F4-05,ISO27001,A.8.2,Privileged access rights,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F4-05,CIS,5,Account Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F4-05,PCIDSS,8,Identify Users and Authenticate Access to System Components,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F4-05,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-01
+HISS-F4-05,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F5-01,ISO27001,A.8.9,Configuration management,D,NIST OLIR CSF 2.0 informative reference PR.PS-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for PR.PS-01
+HISS-F5-01,ISO27001,A.8.20,Networks security,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F5-01,CIS,4.1,Safeguard under Control 4 Secure Configuration of Enterprise Assets and Software,D,NIST OLIR CSF 2.0 informative reference PR.PS-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.PS-01
+HISS-F5-01,PCIDSS,2,Apply Secure Configurations to All System Components,D,NIST OLIR CSF 2.0 informative reference PR.PS-01,VERIFIED,principal requirement level (INT B1); OLIR lists this target for PR.PS-01
+HISS-F5-01,PCIDSS,2.2.1,Sub requirement of Requirement 2 (number web checked in Capstone 1),P,,VERIFIED,sub requirement number from E43
+HISS-F5-01,CSF,PR.PS,Platform Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-01
+HISS-F5-01,CSF,PR.IR,Technology Infrastructure Resilience,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.IR-01
+HISS-F5-01,CCM,CCC,Change Control and Configuration Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F5-02,ISO27001,A.8.8,Management of technical vulnerabilities,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F5-02,ISO27001,A.8.32,Change management,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F5-02,CIS,7,Continuous Vulnerability Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F5-02,PCIDSS,6,Develop and Maintain Secure Systems and Software,D,NIST OLIR CSF 2.0 informative reference PR.PS-02,VERIFIED,principal requirement level (INT B1); OLIR lists this target for PR.PS-02
+HISS-F5-02,PCIDSS,6.3.3,Sub requirement of Requirement 6 (number web checked in Capstone 1),P,,VERIFIED,sub requirement number from E43
+HISS-F5-02,CSF,PR.PS,Platform Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-02
+HISS-F5-02,CSF,ID.RA,Risk Assessment,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.RA-01
+HISS-F5-02,CCM,TVM,Threat and Vulnerability Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F5-03,ISO27001,A.8.24,Use of cryptography,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F5-03,CIS,3.10,Safeguard under Control 3 Data Protection,D,NIST OLIR CSF 2.0 informative reference PR.DS-02,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.DS-02
+HISS-F5-03,CIS,4,Secure Configuration of Enterprise Assets and Software,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F5-03,PCIDSS,4,"Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks",P,,VERIFIED,principal requirement level (INT B1)
+HISS-F5-03,PCIDSS,4.2.1,Sub requirement of Requirement 4 (number web checked in Capstone 1),P,,VERIFIED,sub requirement number from E43
+HISS-F5-03,CSF,PR.DS,Data Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-02
+HISS-F5-03,CCM,CEK,"Cryptography, Encryption and Key Management",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F5-04,ISO27001,A.8.8,Management of technical vulnerabilities,D,NIST OLIR CSF 2.0 informative reference ID.RA-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for ID.RA-01
+HISS-F5-04,CIS,7,Continuous Vulnerability Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F5-04,CIS,18,Penetration Testing,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F5-04,PCIDSS,11,Test Security of Systems and Networks Regularly,D,NIST OLIR CSF 2.0 informative reference ID.RA-01,VERIFIED,principal requirement level (INT B1); OLIR lists this target for ID.RA-01
+HISS-F5-04,CSF,ID.RA,Risk Assessment,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.RA-01
+HISS-F5-04,CCM,TVM,Threat and Vulnerability Management,D,NIST OLIR CSF 2.0 informative reference ID.RA-01,VERIFIED,domain verified (SOURCES_TOPUP.md 7); OLIR lists this target for ID.RA-01
+HISS-F5-05,ISO27001,A.8.7,Protection against malware,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F5-05,CIS,10.1,Safeguard under Control 10 Malware Defenses,D,NIST OLIR CSF 2.0 informative reference DE.CM-09,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for DE.CM-09
+HISS-F5-05,PCIDSS,5,Protect All Systems and Networks from Malicious Software,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F5-05,CSF,DE.CM,Continuous Monitoring,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory DE.CM-09
+HISS-F5-05,CSF,PR.PS,Platform Security,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-05
+HISS-F5-05,CCM,UEM,Universal Endpoint Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F6-01,ISO27001,A.8.15,Logging,D,NIST OLIR CSF 2.0 informative reference PR.PS-04,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for PR.PS-04
+HISS-F6-01,ISO27001,A.8.17,Clock synchronization,D,NIST OLIR CSF 2.0 informative reference PR.PS-04,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for PR.PS-04
+HISS-F6-01,CIS,8.2,Safeguard under Control 8 Audit Log Management,D,NIST OLIR CSF 2.0 informative reference PR.PS-04,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.PS-04
+HISS-F6-01,PCIDSS,10,Log and Monitor All Access to System Components and Cardholder Data,D,NIST OLIR CSF 2.0 informative reference PR.PS-04,VERIFIED,principal requirement level (INT B1); OLIR lists this target for PR.PS-04
+HISS-F6-01,SP1800-27,Auditing logging and reporting,SP 1800-27 Vol B security characteristic,P,,VERIFIED,INT C5
+HISS-F6-01,CSF,PR.PS,Platform Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-04
+HISS-F6-01,CCM,LOG,Logging and Monitoring,D,NIST OLIR CSF 2.0 informative reference PR.PS-04,VERIFIED,domain verified (SOURCES_TOPUP.md 7); OLIR lists this target for PR.PS-04
+HISS-F6-02,ISO27001,A.8.16,Monitoring activities,D,NIST OLIR CSF 2.0 informative reference DE.CM-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for DE.CM-01
+HISS-F6-02,CIS,13.1,Safeguard under Control 13 Network Monitoring and Defense,D,NIST OLIR CSF 2.0 informative reference DE.CM-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for DE.CM-01
+HISS-F6-02,CIS,8,Audit Log Management,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F6-02,PCIDSS,10,Log and Monitor All Access to System Components and Cardholder Data,D,NIST OLIR CSF 2.0 informative reference DE.AE-02,VERIFIED,principal requirement level (INT B1); OLIR lists this target for DE.AE-02
+HISS-F6-02,CSF,DE.CM,Continuous Monitoring,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory DE.CM-01
+HISS-F6-02,CSF,DE.AE,Adverse Event Analysis,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory DE.AE-02
+HISS-F6-02,CCM,LOG,Logging and Monitoring,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-F6-03,ISO27001,A.5.24,Information security incident management planning and preparation,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F6-03,ISO27001,A.5.26,Response to information security incidents,D,NIST OLIR CSF 2.0 informative reference RS.CO-02,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for RS.CO-02
+HISS-F6-03,ISO27001,A.5.5,Contact with authorities,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F6-03,CIS,17.2,Safeguard under Control 17 Incident Response Management,D,NIST OLIR CSF 2.0 informative reference RS.CO-02,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for RS.CO-02
+HISS-F6-03,PCIDSS,12,Support Information Security with Organizational Policies and Programs,D,NIST OLIR CSF 2.0 informative reference ID.IM-04,VERIFIED,principal requirement level (INT B1); OLIR lists this target for ID.IM-04
+HISS-F6-03,CSF,ID.IM,Improvement,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.IM-04
+HISS-F6-03,CSF,RS.CO,Incident Response Reporting and Communication,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory RS.CO-02
+HISS-F6-03,CCM,SEF,"Security Incident Management, E-Discovery and Cloud Forensics",D,NIST OLIR CSF 2.0 informative reference RS.CO-02,VERIFIED,domain verified (SOURCES_TOPUP.md 7); OLIR lists this target for RS.CO-02
+HISS-F6-04,ISO27001,A.8.13,Information backup,D,NIST OLIR CSF 2.0 informative reference PR.DS-11,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for PR.DS-11
+HISS-F6-04,ISO27001,A.5.30,ICT readiness for business continuity,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F6-04,CIS,11.2,Safeguard under Control 11 Data Recovery,P,,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2)
+HISS-F6-04,CIS,11.5,Safeguard under Control 11 Data Recovery,D,NIST OLIR CSF 2.0 informative reference RC.RP-03,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for RC.RP-03
+HISS-F6-04,CSF,PR.DS,Data Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-11
+HISS-F6-04,CSF,RC.RP,Incident Recovery Plan Execution,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory RC.RP-03
+HISS-F6-04,CCM,BCR,Business Continuity Management and Operational Resilience,D,NIST OLIR CSF 2.0 informative reference RC.RP-03,VERIFIED,domain verified (SOURCES_TOPUP.md 7); OLIR lists this target for RC.RP-03
+HISS-F6-05,ISO27001,A.5.29,Information security during disruption,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F6-05,ISO27001,A.5.30,ICT readiness for business continuity,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-F6-05,CIS,11,Data Recovery,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-F6-05,PCIDSS,9,Restrict Physical Access to Cardholder Data,P,,VERIFIED,principal requirement level (INT B1)
+HISS-F6-05,PCIDSS,3,Protect Stored Account Data,J,,VERIFIED,principal requirement level (INT B1)
+HISS-F6-05,CSF,RC.RP,Incident Recovery Plan Execution,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory RC.RP-04
+HISS-F6-05,CSF,PR.IR,Technology Infrastructure Resilience,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.IR-03
+HISS-F6-05,CCM,BCR,Business Continuity Management and Operational Resilience,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H01-01,ISO27001,A.8.3,Information access restriction,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H01-01,ISO27001,A.5.15,Access control,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H01-01,CIS,6.8,Safeguard under Control 6 Access Control Management,P,,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2)
+HISS-H01-01,PCIDSS,7,Restrict Access to System Components and Cardholder Data by Business Need to Know,P,,VERIFIED,principal requirement level (INT B1)
+HISS-H01-01,SP1800-27,Role based authentication and access control,SP 1800-27 Vol B security characteristic,D,NIST SP 1800-27 Vol B (STANDARDS_INTERNATIONAL.md C5),VERIFIED,control restates the SP 1800-27 role based access characteristic
+HISS-H01-01,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-05
+HISS-H01-01,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H01-02,ISO27001,A.8.11,Data masking,P,,VERIFIED,G7 (SECONDARY) links Annex A 8.11 to PCI DSS masking; downgraded from D
+HISS-H01-02,CIS,3.11,Safeguard under Control 3 Data Protection,D,NIST OLIR CSF 2.0 informative reference PR.DS-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.DS-01
+HISS-H01-02,PCIDSS,3,Protect Stored Account Data,D,NIST OLIR CSF 2.0 informative reference PR.DS-01,VERIFIED,principal requirement level (INT B1); OLIR lists this target for PR.DS-01
+HISS-H01-02,SP1800-27,Tokenization with allowlisting,SP 1800-27 Vol B security characteristic,D,NIST SP 1800-27 Vol B (STANDARDS_INTERNATIONAL.md C5),VERIFIED,control restates the SP 1800-27 tokenisation design
+HISS-H01-02,HTNG,Secure Payments Framework tokenisation,HTNG Secure Payments Framework concept (trade press only),P,,SECONDARY,INT F3 SECONDARY; framework text not opened
+HISS-H01-02,CSF,PR.DS,Data Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-01
+HISS-H01-02,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H01-03,ISO27001,A.8.22,Segregation of networks,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H01-03,ISO27001,A.8.20,Networks security,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H01-03,CIS,12.2,Safeguard under Control 12 Network Infrastructure Management,D,NIST OLIR CSF 2.0 informative reference PR.IR-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.IR-01
+HISS-H01-03,CIS,4,Secure Configuration of Enterprise Assets and Software,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H01-03,PCIDSS,1,Install and Maintain Network Security Controls,P,,VERIFIED,principal requirement level (INT B1)
+HISS-H01-03,SP1800-27,Protected zone for PMS and supporting systems,SP 1800-27 Vol B design point (three network zones),D,NIST SP 1800-27 Vol B (STANDARDS_INTERNATIONAL.md C5),VERIFIED,control restates the SP 1800-27 protected zone
+HISS-H01-03,CSF,PR.IR,Technology Infrastructure Resilience,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.IR-01
+HISS-H01-03,CCM,IVS,Infrastructure and Virtualization Security,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H01-04,ISO27001,A.8.19,Installation of software on operational systems,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H01-04,ISO27001,A.8.8,Management of technical vulnerabilities,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H01-04,CIS,2.2,Safeguard under Control 2 Inventory and Control of Software Assets,D,NIST OLIR CSF 2.0 informative reference PR.PS-02,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.PS-02
+HISS-H01-04,PCIDSS,6,Develop and Maintain Secure Systems and Software,D,NIST OLIR CSF 2.0 informative reference PR.PS-02,VERIFIED,principal requirement level (INT B1); OLIR lists this target for PR.PS-02
+HISS-H01-04,PCIDSS,12.3.4,Sub requirement of Requirement 12 (number web checked in Capstone 1),P,,VERIFIED,sub requirement number from E43
+HISS-H01-04,CSF,PR.PS,Platform Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-02
+HISS-H01-04,CCM,TVM,Threat and Vulnerability Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H01-05,ISO27001,A.8.12,Data leakage prevention,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H01-05,ISO27001,A.5.14,Information transfer,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H01-05,CIS,3,Data Protection,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H01-05,SP1800-27,Protection of personal information,SP 1800-27 Vol B security characteristic,P,,VERIFIED,INT C5
+HISS-H01-05,CSF,PR.DS,Data Security,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-02
+HISS-H01-05,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H02-01,ISO27001,A.5.9,Inventory of information and other associated assets,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H02-01,CIS,1,Inventory and Control of Enterprise Assets,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H02-01,CIS,3.8,Safeguard under Control 3 Data Protection,D,NIST OLIR CSF 2.0 informative reference ID.AM-03,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for ID.AM-03
+HISS-H02-01,PCIDSS,12,Support Information Security with Organizational Policies and Programs,D,NIST OLIR CSF 2.0 informative reference ID.AM-03,VERIFIED,principal requirement level (INT B1); OLIR lists this target for ID.AM-03
+HISS-H02-01,PCIDSS,1,Install and Maintain Network Security Controls,D,NIST OLIR CSF 2.0 informative reference ID.AM-03,VERIFIED,principal requirement level (INT B1); OLIR lists this target for ID.AM-03
+HISS-H02-01,CSF,ID.AM,Asset Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.AM-03
+HISS-H02-01,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H02-02,ISO27001,A.8.22,Segregation of networks,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H02-02,CIS,12.2,Safeguard under Control 12 Network Infrastructure Management,D,NIST OLIR CSF 2.0 informative reference PR.IR-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.IR-01
+HISS-H02-02,PCIDSS,1,Install and Maintain Network Security Controls,P,,VERIFIED,principal requirement level (INT B1)
+HISS-H02-02,PCIDSS,11,Test Security of Systems and Networks Regularly,P,,VERIFIED,principal requirement level (INT B1)
+HISS-H02-02,HTNG,Converged network policy per user and device,HTNG NGI Technology Guide v1.0 security content,P,,VERIFIED,INT F1 or F2; guidance not a standard
+HISS-H02-02,CSF,PR.IR,Technology Infrastructure Resilience,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.IR-01
+HISS-H02-02,CCM,IVS,Infrastructure and Virtualization Security,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H02-03,ISO27001,A.7.8,Equipment siting and protection,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H02-03,ISO27001,A.7.4,Physical security monitoring,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H02-03,CIS,1,Inventory and Control of Enterprise Assets,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H02-03,PCIDSS,9,Restrict Physical Access to Cardholder Data,D,NIST OLIR CSF 2.0 informative reference DE.CM-02,VERIFIED,principal requirement level (INT B1); OLIR lists this target for DE.CM-02
+HISS-H02-03,CSF,DE.CM,Continuous Monitoring,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory DE.CM-02
+HISS-H02-03,CCM,DCS,Datacenter Security,J,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H02-04,ISO27001,A.5.20,Addressing information security within supplier agreements,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H02-04,ISO27001,A.5.19,Information security in supplier relationships,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H02-04,CIS,15.4,Safeguard under Control 15 Service Provider Management,D,NIST OLIR CSF 2.0 informative reference GV.SC-05,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for GV.SC-05
+HISS-H02-04,PCIDSS,12.8.2,Written agreement with third party service providers,D,PCI SSC FAQ on outsourced payments (STANDARDS_US_EUROPE.md B1),VERIFIED,PCI SSC FAQ names 12.8.2 for the written provider agreement
+HISS-H02-04,PCIDSS,12.8.4,Annual check of service provider compliance status,D,PCI SSC FAQ on outsourced payments (STANDARDS_US_EUROPE.md B1),VERIFIED,PCI SSC FAQ names 12.8.4 for the annual status check
+HISS-H02-04,CSF,GV.SC,Cybersecurity Supply Chain Risk Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.SC-05
+HISS-H02-04,CCM,STA,"Supply Chain Management, Transparency and Accountability",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H02-05,ISO27001,A.8.10,Information deletion,P,,VERIFIED,G7 (SECONDARY) links Annex A 8.10 to PCI DSS retention; downgraded from D
+HISS-H02-05,ISO27001,A.5.33,Protection of records,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H02-05,CIS,3,Data Protection,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H02-05,PCIDSS,3,Protect Stored Account Data,D,NIST OLIR CSF 2.0 informative reference PR.DS-01,VERIFIED,principal requirement level (INT B1); OLIR lists this target for PR.DS-01
+HISS-H02-05,CSF,PR.DS,Data Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-01
+HISS-H02-05,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H02-06,ISO27001,A.5.36,"Compliance with policies, rules and standards for information security",P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H02-06,ISO27001,A.5.31,"Legal, statutory, regulatory and contractual requirements",D,NIST OLIR CSF 2.0 informative reference GV.OC-03,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for GV.OC-03
+HISS-H02-06,CIS,18,Penetration Testing,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H02-06,PCIDSS,12,Support Information Security with Organizational Policies and Programs,P,,VERIFIED,principal requirement level (INT B1)
+HISS-H02-06,CSF,GV.OC,Organizational Context,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.OC-03
+HISS-H02-06,CCM,A&A,Audit and Assurance,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H03-01,ISO27001,A.8.22,Segregation of networks,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H03-01,ISO27001,A.8.20,Networks security,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H03-01,CIS,12.2,Safeguard under Control 12 Network Infrastructure Management,D,NIST OLIR CSF 2.0 informative reference PR.IR-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.IR-01
+HISS-H03-01,PCIDSS,1,Install and Maintain Network Security Controls,P,,VERIFIED,principal requirement level (INT B1)
+HISS-H03-01,SP1800-27,Guest Wi-Fi internet only tied to reservation,SP 1800-27 Vol B design point,D,NIST SP 1800-27 Vol B (STANDARDS_INTERNATIONAL.md C5),VERIFIED,control restates the SP 1800-27 guest path
+HISS-H03-01,HTNG,Converged network policy per user and device,HTNG NGI Technology Guide v1.0 security content,D,HTNG NGI Technology Guide v1.0 (STANDARDS_INTERNATIONAL.md F2),VERIFIED,control restates the NGI separation of guest traffic
+HISS-H03-01,CSF,PR.IR,Technology Infrastructure Resilience,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.IR-01
+HISS-H03-01,CCM,IVS,Infrastructure and Virtualization Security,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H03-02,ISO27001,A.8.15,Logging,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H03-02,ISO27001,A.5.16,Identity management,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H03-02,CIS,8,Audit Log Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H03-02,SP1800-27,Guest Wi-Fi internet only tied to reservation,SP 1800-27 Vol B design point,D,NIST SP 1800-27 Vol B (STANDARDS_INTERNATIONAL.md C5),VERIFIED,control restates the SP 1800-27 reservation linked access
+HISS-H03-02,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-03
+HISS-H03-02,CSF,PR.PS,Platform Security,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-04
+HISS-H03-02,CCM,IAM,Identity and Access Management,J,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H03-03,ISO27001,A.8.9,Configuration management,D,NIST OLIR CSF 2.0 informative reference PR.PS-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for PR.PS-01
+HISS-H03-03,ISO27001,A.5.14,Information transfer,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H03-03,CIS,4.1,Safeguard under Control 4 Secure Configuration of Enterprise Assets and Software,D,NIST OLIR CSF 2.0 informative reference PR.PS-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.PS-01
+HISS-H03-03,CIS,12,Network Infrastructure Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H03-03,PCIDSS,2,Apply Secure Configurations to All System Components,J,,VERIFIED,principal requirement level (INT B1)
+HISS-H03-03,CSF,PR.PS,Platform Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-01
+HISS-H03-03,CCM,CCC,Change Control and Configuration Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H03-04,ISO27001,A.8.9,Configuration management,D,NIST OLIR CSF 2.0 informative reference PR.PS-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for PR.PS-01
+HISS-H03-04,ISO27001,A.8.19,Installation of software on operational systems,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H03-04,CIS,4.1,Safeguard under Control 4 Secure Configuration of Enterprise Assets and Software,D,NIST OLIR CSF 2.0 informative reference PR.PS-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.PS-01
+HISS-H03-04,CIS,2,Inventory and Control of Software Assets,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H03-04,CSF,PR.PS,Platform Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-01
+HISS-H03-04,CCM,UEM,Universal Endpoint Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H03-05,ISO27001,A.8.10,Information deletion,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H03-05,ISO27001,A.7.14,Secure disposal or re-use of equipment,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H03-05,CIS,3,Data Protection,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H03-05,SP1800-27,Protection of personal information,SP 1800-27 Vol B security characteristic,P,,VERIFIED,INT C5
+HISS-H03-05,CSF,PR.DS,Data Security,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-01
+HISS-H03-05,CCM,DSP,Data Security and Privacy,J,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H04-01,ISO27001,A.5.34,Privacy and protection of PII,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H04-01,ISO27001,A.8.11,Data masking,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H04-01,CIS,3,Data Protection,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H04-01,SP1800-27,Lock server receives room number only,SP 1800-27 Vol B design point,D,NIST SP 1800-27 Vol B (STANDARDS_INTERNATIONAL.md C5),VERIFIED,control restates the SP 1800-27 lock minimisation design
+HISS-H04-01,CSF,PR.DS,Data Security,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-01
+HISS-H04-01,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H04-02,ISO27001,A.8.9,Configuration management,D,NIST OLIR CSF 2.0 informative reference PR.PS-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for PR.PS-01
+HISS-H04-02,ISO27001,A.8.1,User endpoint devices,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H04-02,CIS,4.1,Safeguard under Control 4 Secure Configuration of Enterprise Assets and Software,D,NIST OLIR CSF 2.0 informative reference PR.PS-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.PS-01
+HISS-H04-02,HTNG,Door lock solution criteria,HTNG Door Lock Security Best Practices v1.0 section,P,,VERIFIED,INT F1; only part of the document was read
+HISS-H04-02,CSF,PR.PS,Platform Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-01
+HISS-H04-02,CCM,UEM,Universal Endpoint Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H04-03,ISO27001,A.8.24,Use of cryptography,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H04-03,ISO27001,A.8.5,Secure authentication,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H04-03,CIS,16,Application Software Security,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H04-03,CIS,3,Data Protection,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H04-03,HTNG,Mobile key best practices,HTNG Door Lock Security Best Practices v1.0 section,P,,VERIFIED,INT F1; section may lie beyond the part read
+HISS-H04-03,HTNG,Online door lock end points,HTNG Door Lock Security Best Practices v1.0 section,P,,VERIFIED,INT F1; section may lie beyond the part read
+HISS-H04-03,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-03
+HISS-H04-03,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H04-04,ISO27001,A.5.22,"Monitoring, review and change management of supplier services",D,NIST OLIR CSF 2.0 informative reference DE.CM-06,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for DE.CM-06
+HISS-H04-04,ISO27001,A.8.15,Logging,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H04-04,CIS,15.6,Safeguard under Control 15 Service Provider Management,D,NIST OLIR CSF 2.0 informative reference DE.CM-06,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for DE.CM-06
+HISS-H04-04,CIS,8,Audit Log Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H04-04,HTNG,Door lock solution criteria,HTNG Door Lock Security Best Practices v1.0 section,P,,VERIFIED,INT F1 lists incident investigation among solution criteria
+HISS-H04-04,CSF,DE.CM,Continuous Monitoring,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory DE.CM-06
+HISS-H04-04,CCM,LOG,Logging and Monitoring,D,NIST OLIR CSF 2.0 informative reference DE.CM-06,VERIFIED,domain verified (SOURCES_TOPUP.md 7); OLIR lists this target for DE.CM-06
+HISS-H05-01,ISO27001,A.5.9,Inventory of information and other associated assets,D,NIST OLIR CSF 2.0 informative reference ID.AM-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for ID.AM-01
+HISS-H05-01,CIS,1.1,Safeguard under Control 1 Inventory and Control of Enterprise Assets,D,NIST OLIR CSF 2.0 informative reference ID.AM-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for ID.AM-01
+HISS-H05-01,CIS,2,Inventory and Control of Software Assets,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H05-01,CSF,ID.AM,Asset Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.AM-01
+HISS-H05-01,CCM,UEM,Universal Endpoint Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H05-02,ISO27001,A.8.22,Segregation of networks,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H05-02,CIS,12.2,Safeguard under Control 12 Network Infrastructure Management,D,NIST OLIR CSF 2.0 informative reference PR.IR-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.IR-01
+HISS-H05-02,PCIDSS,1,Install and Maintain Network Security Controls,J,,VERIFIED,principal requirement level (INT B1)
+HISS-H05-02,HTNG,Converged network policy per user and device,HTNG NGI Technology Guide v1.0 security content,D,HTNG NGI Technology Guide v1.0 (STANDARDS_INTERNATIONAL.md F2),VERIFIED,control restates the NGI separation of IoT traffic
+HISS-H05-02,CSF,PR.IR,Technology Infrastructure Resilience,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.IR-01
+HISS-H05-02,CCM,IVS,Infrastructure and Virtualization Security,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H05-03,ISO27001,A.5.17,Authentication information,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H05-03,ISO27001,A.8.9,Configuration management,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H05-03,CIS,4,Secure Configuration of Enterprise Assets and Software,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H05-03,CIS,5,Account Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H05-03,PCIDSS,2,Apply Secure Configurations to All System Components,J,,VERIFIED,principal requirement level (INT B1)
+HISS-H05-03,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-01
+HISS-H05-03,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H05-04,ISO27001,A.5.19,Information security in supplier relationships,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H05-04,ISO27001,A.5.21,Managing information security in the ICT supply chain,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H05-04,CIS,15,Service Provider Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H05-04,CIS,6,Access Control Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H05-04,CSF,PR.AA,"Identity Management, Authentication and Access Control",J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-05
+HISS-H05-04,CSF,GV.SC,Cybersecurity Supply Chain Risk Management,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.SC-07
+HISS-H05-04,CCM,STA,"Supply Chain Management, Transparency and Accountability",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H05-05,ISO27001,A.8.20,Networks security,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H05-05,ISO27001,A.8.3,Information access restriction,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H05-05,CIS,12,Network Infrastructure Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H05-05,CIS,13,Network Monitoring and Defense,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H05-05,CSF,ID.AM,Asset Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.AM-03
+HISS-H05-05,CCM,IVS,Infrastructure and Virtualization Security,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H06-01,ISO27001,A.8.22,Segregation of networks,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H06-01,ISO27001,A.8.9,Configuration management,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H06-01,CIS,12.2,Safeguard under Control 12 Network Infrastructure Management,D,NIST OLIR CSF 2.0 informative reference PR.IR-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.IR-01
+HISS-H06-01,CIS,4,Secure Configuration of Enterprise Assets and Software,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H06-01,PCIDSS,1,Install and Maintain Network Security Controls,J,,VERIFIED,principal requirement level (INT B1)
+HISS-H06-01,CSF,PR.IR,Technology Infrastructure Resilience,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.IR-01
+HISS-H06-01,CCM,IVS,Infrastructure and Virtualization Security,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H06-02,ISO27001,A.5.33,Protection of records,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H06-02,ISO27001,A.8.10,Information deletion,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H06-02,ISO27001,A.5.15,Access control,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H06-02,CIS,3,Data Protection,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H06-02,CIS,6,Access Control Management,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H06-02,CSF,PR.DS,Data Security,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-01
+HISS-H06-02,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H06-03,ISO27001,A.5.14,Information transfer,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H06-03,ISO27001,A.8.12,Data leakage prevention,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H06-03,CIS,3,Data Protection,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H06-03,CIS,8,Audit Log Management,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H06-03,CSF,PR.DS,Data Security,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-02
+HISS-H06-03,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H06-04,ISO27001,A.5.34,Privacy and protection of PII,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H06-04,ISO27001,A.7.4,Physical security monitoring,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H06-04,CIS,3,Data Protection,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H06-04,CSF,GV.OC,Organizational Context,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.OC-03
+HISS-H06-04,CCM,DSP,Data Security and Privacy,J,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H07-01,ISO27001,A.8.20,Networks security,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H07-01,ISO27001,A.8.5,Secure authentication,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H07-01,ISO27001,A.6.7,Remote working,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H07-01,CIS,12.2,Safeguard under Control 12 Network Infrastructure Management,D,NIST OLIR CSF 2.0 informative reference PR.IR-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.IR-01
+HISS-H07-01,CIS,6,Access Control Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H07-01,PCIDSS,8,Identify Users and Authenticate Access to System Components,P,,VERIFIED,principal requirement level (INT B1)
+HISS-H07-01,PCIDSS,8.4.3,Sub requirement of Requirement 8 (number web checked in Capstone 1),P,,VERIFIED,sub requirement number from E43
+HISS-H07-01,CSF,PR.IR,Technology Infrastructure Resilience,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.IR-01
+HISS-H07-01,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-03
+HISS-H07-01,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H07-02,ISO27001,A.5.16,Identity management,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H07-02,ISO27001,A.5.19,Information security in supplier relationships,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H07-02,CIS,5,Account Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H07-02,CIS,15,Service Provider Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H07-02,PCIDSS,8,Identify Users and Authenticate Access to System Components,P,,VERIFIED,principal requirement level (INT B1)
+HISS-H07-02,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-01
+HISS-H07-02,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H07-03,ISO27001,A.5.15,Access control,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H07-03,ISO27001,A.8.2,Privileged access rights,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H07-03,CIS,6,Access Control Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H07-03,PCIDSS,8,Identify Users and Authenticate Access to System Components,J,,VERIFIED,principal requirement level (INT B1)
+HISS-H07-03,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-05
+HISS-H07-03,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H07-04,ISO27001,A.8.15,Logging,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H07-04,ISO27001,A.5.22,"Monitoring, review and change management of supplier services",D,NIST OLIR CSF 2.0 informative reference DE.CM-06,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for DE.CM-06
+HISS-H07-04,CIS,8,Audit Log Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H07-04,PCIDSS,10,Log and Monitor All Access to System Components and Cardholder Data,P,,VERIFIED,principal requirement level (INT B1)
+HISS-H07-04,SP1800-27,Auditing logging and reporting,SP 1800-27 Vol B security characteristic,P,,VERIFIED,INT C5
+HISS-H07-04,CSF,DE.CM,Continuous Monitoring,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory DE.CM-06
+HISS-H07-04,CCM,LOG,Logging and Monitoring,D,NIST OLIR CSF 2.0 informative reference DE.CM-06,VERIFIED,domain verified (SOURCES_TOPUP.md 7); OLIR lists this target for DE.CM-06
+HISS-H07-05,ISO27001,A.8.19,Installation of software on operational systems,D,NIST OLIR CSF 2.0 informative reference PR.PS-05,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for PR.PS-05
+HISS-H07-05,ISO27001,A.8.20,Networks security,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H07-05,CIS,2.5,Safeguard under Control 2 Inventory and Control of Software Assets,D,NIST OLIR CSF 2.0 informative reference PR.PS-05,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.PS-05
+HISS-H07-05,CSF,PR.PS,Platform Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.PS-05
+HISS-H07-05,CCM,UEM,Universal Endpoint Management,D,NIST OLIR CSF 2.0 informative reference PR.PS-05,VERIFIED,domain verified (SOURCES_TOPUP.md 7); OLIR lists this target for PR.PS-05
+HISS-H08-01,ISO27001,A.5.12,Classification of information,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-01,ISO27001,A.5.34,Privacy and protection of PII,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-01,CIS,3.2,Safeguard under Control 3 Data Protection,D,NIST OLIR CSF 2.0 informative reference ID.AM-07,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for ID.AM-07
+HISS-H08-01,SP1800-27,Protection of personal information,SP 1800-27 Vol B security characteristic,P,,VERIFIED,INT C5
+HISS-H08-01,CSF,ID.AM,Asset Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.AM-07 ID.AM-03
+HISS-H08-01,CCM,DSP,Data Security and Privacy,D,NIST OLIR CSF 2.0 informative reference ID.AM-07,VERIFIED,domain verified (SOURCES_TOPUP.md 7); OLIR lists this target for ID.AM-07
+HISS-H08-02,ISO27001,A.8.11,Data masking,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-02,ISO27001,A.8.24,Use of cryptography,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-02,ISO27001,A.5.34,Privacy and protection of PII,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-02,CIS,3.11,Safeguard under Control 3 Data Protection,D,NIST OLIR CSF 2.0 informative reference PR.DS-01,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for PR.DS-01
+HISS-H08-02,CSF,PR.DS,Data Security,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-01
+HISS-H08-02,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H08-03,ISO27001,A.5.31,"Legal, statutory, regulatory and contractual requirements",D,NIST OLIR CSF 2.0 informative reference GV.OC-03,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for GV.OC-03
+HISS-H08-03,ISO27001,A.5.33,Protection of records,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-03,CIS,3,Data Protection,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H08-03,CSF,GV.OC,Organizational Context,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.OC-03
+HISS-H08-03,CCM,GRC,"Governance, Risk Management and Compliance",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H08-04,ISO27001,A.8.10,Information deletion,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-04,ISO27001,A.5.33,Protection of records,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-04,CIS,3,Data Protection,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H08-04,PCIDSS,3,Protect Stored Account Data,J,,VERIFIED,principal requirement level (INT B1)
+HISS-H08-04,CSF,PR.DS,Data Security,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.DS-01
+HISS-H08-04,CSF,ID.AM,Asset Management,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.AM-08
+HISS-H08-04,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H08-05,ISO27001,A.5.34,Privacy and protection of PII,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-05,CIS,3,Data Protection,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H08-05,CSF,GV.OC,Organizational Context,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.OC-03
+HISS-H08-05,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H08-06,ISO27001,A.5.34,Privacy and protection of PII,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-06,ISO27001,A.5.12,Classification of information,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H08-06,CIS,3,Data Protection,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H08-06,CSF,GV.OC,Organizational Context,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.OC-03
+HISS-H08-06,CCM,DSP,Data Security and Privacy,J,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H09-01,ISO27001,A.5.23,Information security for use of cloud services,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H09-01,ISO27001,A.5.9,Inventory of information and other associated assets,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H09-01,CIS,15.1,Safeguard under Control 15 Service Provider Management,D,NIST OLIR CSF 2.0 informative reference ID.AM-04,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for ID.AM-04
+HISS-H09-01,CSF,ID.AM,Asset Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.AM-04
+HISS-H09-01,CCM,STA,"Supply Chain Management, Transparency and Accountability",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H09-02,ISO27001,A.5.23,Information security for use of cloud services,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H09-02,CIS,15.4,Safeguard under Control 15 Service Provider Management,D,NIST OLIR CSF 2.0 informative reference GV.SC-02,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for GV.SC-02
+HISS-H09-02,CSF,GV.SC,Cybersecurity Supply Chain Risk Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.SC-02
+HISS-H09-02,CCM,STA,"Supply Chain Management, Transparency and Accountability",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H09-03,ISO27001,A.5.22,"Monitoring, review and change management of supplier services",P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H09-03,ISO27001,A.5.19,Information security in supplier relationships,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H09-03,CIS,15.6,Safeguard under Control 15 Service Provider Management,D,NIST OLIR CSF 2.0 informative reference GV.SC-07,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for GV.SC-07
+HISS-H09-03,CSF,GV.SC,Cybersecurity Supply Chain Risk Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.SC-07
+HISS-H09-03,CCM,STA,"Supply Chain Management, Transparency and Accountability",D,NIST OLIR CSF 2.0 informative reference GV.SC-07,VERIFIED,domain verified (SOURCES_TOPUP.md 7); OLIR lists this target for GV.SC-07
+HISS-H09-04,ISO27001,A.8.5,Secure authentication,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H09-04,ISO27001,A.8.2,Privileged access rights,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H09-04,CIS,6,Access Control Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H09-04,CIS,5,Account Management,P,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H09-04,PCIDSS,8,Identify Users and Authenticate Access to System Components,J,,VERIFIED,principal requirement level (INT B1)
+HISS-H09-04,CSF,PR.AA,"Identity Management, Authentication and Access Control",P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory PR.AA-03
+HISS-H09-04,CCM,IAM,Identity and Access Management,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H09-05,ISO27001,A.5.23,Information security for use of cloud services,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H09-05,ISO27001,A.5.31,"Legal, statutory, regulatory and contractual requirements",D,NIST OLIR CSF 2.0 informative reference GV.OC-03,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for GV.OC-03
+HISS-H09-05,CIS,3,Data Protection,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H09-05,CSF,GV.OC,Organizational Context,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.OC-03
+HISS-H09-05,CCM,DSP,Data Security and Privacy,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H10-01,ISO27001,A.5.20,Addressing information security within supplier agreements,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H10-01,ISO27001,A.5.19,Information security in supplier relationships,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H10-01,CIS,15.4,Safeguard under Control 15 Service Provider Management,D,NIST OLIR CSF 2.0 informative reference GV.SC-05,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for GV.SC-05
+HISS-H10-01,PCIDSS,12.8.2,Written agreement with third party service providers,P,,VERIFIED,sub requirement number from USE B1
+HISS-H10-01,CSF,GV.SC,Cybersecurity Supply Chain Risk Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.SC-05
+HISS-H10-01,CCM,STA,"Supply Chain Management, Transparency and Accountability",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H10-02,ISO27001,A.5.22,"Monitoring, review and change management of supplier services",D,NIST OLIR CSF 2.0 informative reference GV.SC-04,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for GV.SC-04
+HISS-H10-02,ISO27001,A.5.21,Managing information security in the ICT supply chain,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H10-02,CIS,15.3,Safeguard under Control 15 Service Provider Management,D,NIST OLIR CSF 2.0 informative reference GV.SC-04,VERIFIED,safeguard number listed in the NIST OLIR CSF 2.0 export (SOURCES_TOPUP.md 2); OLIR lists this target for GV.SC-04
+HISS-H10-02,PCIDSS,12.8.4,Annual check of service provider compliance status,P,,VERIFIED,sub requirement number from USE B1
+HISS-H10-02,CSF,GV.SC,Cybersecurity Supply Chain Risk Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.SC-04 GV.SC-07
+HISS-H10-02,CCM,STA,"Supply Chain Management, Transparency and Accountability",D,NIST OLIR CSF 2.0 informative reference GV.SC-04,VERIFIED,domain verified (SOURCES_TOPUP.md 7); OLIR lists this target for GV.SC-04
+HISS-H10-03,ISO27001,A.5.20,Addressing information security within supplier agreements,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H10-03,ISO27001,A.5.2,Information security roles and responsibilities,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H10-03,CIS,15,Service Provider Management,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H10-03,CSF,GV.SC,Cybersecurity Supply Chain Risk Management,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.SC-02
+HISS-H10-03,CSF,GV.RR,"Roles, Responsibilities and Authorities",J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.RR-02
+HISS-H10-03,CCM,STA,"Supply Chain Management, Transparency and Accountability",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H10-04,ISO27001,A.5.35,Independent review of information security,D,NIST OLIR CSF 2.0 informative reference ID.IM-01,VERIFIED,ID and short title from the student's ISO sheet (E15); OLIR lists this target for ID.IM-01
+HISS-H10-04,ISO27001,A.5.36,"Compliance with policies, rules and standards for information security",P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H10-04,CIS,18,Penetration Testing,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H10-04,CSF,ID.IM,Improvement,P,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.IM-01
+HISS-H10-04,CCM,A&A,Audit and Assurance,P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)
+HISS-H10-05,ISO27001,A.5.8,Information security in project management,P,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H10-05,ISO27001,A.5.19,Information security in supplier relationships,J,,VERIFIED,ID and short title from the student's ISO sheet (E15)
+HISS-H10-05,CIS,1,Inventory and Control of Enterprise Assets,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H10-05,CIS,7,Continuous Vulnerability Management,J,,VERIFIED,control level; no fitting safeguard listed in OLIR for the anchor
+HISS-H10-05,CSF,GV.SC,Cybersecurity Supply Chain Risk Management,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory GV.SC-06
+HISS-H10-05,CSF,ID.RA,Risk Assessment,J,,VERIFIED,category code verified in CSWP 29 (SOURCES_TOPUP.md 1); anchor subcategory ID.RA-10
+HISS-H10-05,CCM,GRC,"Governance, Risk Management and Compliance",P,,VERIFIED,domain verified (SOURCES_TOPUP.md 7)

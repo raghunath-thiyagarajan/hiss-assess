@@ -1,0 +1,211 @@
+framework,target_id,target_title,target_status,controls,mapped_controls,direct_rows,source_backed_pct,indicative_pct,best_control,met,state
+ISO27001,A.5.1,Policies for information security,VERIFIED,HISS-F1-01 (J); HISS-F1-03 (D),2,1,25.0,25.0,HISS-F1-03,no,scored
+ISO27001,A.5.2,Information security roles and responsibilities,VERIFIED,HISS-F1-02 (P); HISS-H10-03 (J),2,0,0.0,12.5,HISS-F1-02,no,scored
+ISO27001,A.5.3,Segregation of duties,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.5.4,Management responsibilities,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.5.5,Contact with authorities,VERIFIED,HISS-F6-03 (J),1,0,0.0,0.0,HISS-F6-03,no,scored
+ISO27001,A.5.6,Contact with special interest groups,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.5.7,Threat intelligence,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.5.8,Information security in project management,VERIFIED,HISS-H10-05 (P),0,0,,,,,no applicable control
+ISO27001,A.5.9,Inventory of information and other associated assets,VERIFIED,HISS-F2-01 (D); HISS-H02-01 (J); HISS-H05-01 (D); HISS-H09-01 (P),4,2,25.0,25.0,HISS-F2-01,no,scored
+ISO27001,A.5.10,Acceptable use of information and other associated assets,VERIFIED,HISS-F3-05 (P),1,0,0.0,12.5,HISS-F3-05,no,scored
+ISO27001,A.5.11,Return of assets,VERIFIED,HISS-F3-02 (P),1,0,0.0,12.5,HISS-F3-02,no,scored
+ISO27001,A.5.12,Classification of information,VERIFIED,HISS-H08-01 (P); HISS-H08-06 (J),2,0,0.0,6.2,HISS-H08-06,no,scored
+ISO27001,A.5.13,Labelling of information,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.5.14,Information transfer,VERIFIED,HISS-H01-05 (P); HISS-H03-03 (P); HISS-H06-03 (P),2,0,0.0,12.5,HISS-H03-03,no,scored
+ISO27001,A.5.15,Access control,VERIFIED,HISS-F4-04 (J); HISS-H01-01 (P); HISS-H06-02 (J); HISS-H07-03 (P),4,0,0.0,12.5,HISS-H01-01,no,scored
+ISO27001,A.5.16,Identity management,VERIFIED,HISS-F4-01 (P); HISS-H03-02 (J); HISS-H07-02 (P),2,0,0.0,12.5,HISS-F4-01,no,scored
+ISO27001,A.5.17,Authentication information,VERIFIED,HISS-F4-05 (P); HISS-H05-03 (P),1,0,0.0,0.0,HISS-H05-03,no,scored
+ISO27001,A.5.18,Access rights,VERIFIED,HISS-F3-02 (P); HISS-F4-04 (P),2,0,0.0,12.5,HISS-F3-02,no,scored
+ISO27001,A.5.19,Information security in supplier relationships,VERIFIED,HISS-H02-04 (P); HISS-H05-04 (P); HISS-H07-02 (P); HISS-H09-03 (P); HISS-H10-01 (P); HISS-H10-05 (J),5,0,0.0,25.0,HISS-H02-04,no,scored
+ISO27001,A.5.20,Addressing information security within supplier agreements,VERIFIED,HISS-H02-04 (P); HISS-H10-01 (P); HISS-H10-03 (P),3,0,0.0,25.0,HISS-H02-04,no,scored
+ISO27001,A.5.21,Managing information security in the ICT supply chain,VERIFIED,HISS-H05-04 (J); HISS-H10-02 (P),1,0,0.0,0.0,HISS-H05-04,no,scored
+ISO27001,A.5.22,"Monitoring, review and change management of supplier services",VERIFIED,HISS-H04-04 (D); HISS-H07-04 (D); HISS-H09-03 (P); HISS-H10-02 (D),2,1,25.0,25.0,HISS-H04-04,no,scored
+ISO27001,A.5.23,Information security for use of cloud services,VERIFIED,HISS-H09-01 (P); HISS-H09-02 (P); HISS-H09-05 (P),2,0,0.0,12.5,HISS-H09-01,no,scored
+ISO27001,A.5.24,Information security incident management planning and preparation,VERIFIED,HISS-F6-03 (P),1,0,0.0,0.0,HISS-F6-03,no,scored
+ISO27001,A.5.25,Assessment and decision on information security events,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.5.26,Response to information security incidents,VERIFIED,HISS-F6-03 (D),1,1,0.0,0.0,HISS-F6-03,no,scored
+ISO27001,A.5.27,Learning from information security incidents,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.5.28,Collection of evidence,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.5.29,Information security during disruption,VERIFIED,HISS-F6-05 (P),1,0,0.0,12.5,HISS-F6-05,no,scored
+ISO27001,A.5.30,ICT readiness for business continuity,VERIFIED,HISS-F6-04 (P); HISS-F6-05 (P),2,0,0.0,12.5,HISS-F6-04,no,scored
+ISO27001,A.5.31,"Legal, statutory, regulatory and contractual requirements",VERIFIED,HISS-F2-03 (D); HISS-H02-06 (D); HISS-H08-03 (D); HISS-H09-05 (D),4,4,50.0,50.0,HISS-H08-03,no,scored
+ISO27001,A.5.32,Intellectual property rights,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.5.33,Protection of records,VERIFIED,HISS-H02-05 (J); HISS-H06-02 (P); HISS-H08-03 (P); HISS-H08-04 (P),4,0,0.0,25.0,HISS-H08-03,no,scored
+ISO27001,A.5.34,Privacy and protection of PII,VERIFIED,HISS-H04-01 (P); HISS-H06-04 (P); HISS-H08-01 (P); HISS-H08-02 (P); HISS-H08-05 (P); HISS-H08-06 (P),6,0,0.0,12.5,HISS-H04-01,no,scored
+ISO27001,A.5.35,Independent review of information security,VERIFIED,HISS-F2-04 (D); HISS-H10-04 (D),1,1,50.0,50.0,HISS-F2-04,no,scored
+ISO27001,A.5.36,"Compliance with policies, rules and standards for information security",VERIFIED,HISS-F1-05 (J); HISS-F2-04 (P); HISS-F2-05 (J); HISS-H02-06 (P); HISS-H10-04 (P),3,0,0.0,25.0,HISS-F2-04,no,scored
+ISO27001,A.5.37,Documented operating procedures,VERIFIED,HISS-F1-03 (J),1,0,0.0,6.2,HISS-F1-03,no,scored
+ISO27001,A.6.1,Screening,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.6.2,Terms and conditions of employment,VERIFIED,HISS-F3-01 (J); HISS-F3-05 (J),2,0,0.0,6.2,HISS-F3-01,no,scored
+ISO27001,A.6.3,"Information security awareness, education and training",VERIFIED,HISS-F3-01 (D); HISS-F3-03 (D),2,2,25.0,25.0,HISS-F3-01,no,scored
+ISO27001,A.6.4,Disciplinary process,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.6.5,Responsibilities after termination or change of employment,VERIFIED,HISS-F3-02 (J),1,0,0.0,6.2,HISS-F3-02,no,scored
+ISO27001,A.6.6,Confidentiality or non-disclosure agreements,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.6.7,Remote working,VERIFIED,HISS-H07-01 (J),1,0,0.0,6.2,HISS-H07-01,no,scored
+ISO27001,A.6.8,Information security event reporting,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.1,Physical security perimeters,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.2,Physical entry,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.3,"Securing offices, rooms and facilities",,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.4,Physical security monitoring,VERIFIED,HISS-H02-03 (J); HISS-H06-04 (J),2,0,0.0,6.2,HISS-H02-03,no,scored
+ISO27001,A.7.5,Protecting against physical and environmental threats,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.6,Working in secure areas,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.7,Clear desk and clear screen,VERIFIED,HISS-F3-04 (P),1,0,0.0,12.5,HISS-F3-04,no,scored
+ISO27001,A.7.8,Equipment siting and protection,VERIFIED,HISS-H02-03 (P),1,0,0.0,12.5,HISS-H02-03,no,scored
+ISO27001,A.7.9,Security of assets off-premises,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.10,Storage media,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.11,Supporting utilities,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.12,Cabling security,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.13,Equipment maintenance,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.7.14,Secure disposal or re-use of equipment,VERIFIED,HISS-H03-05 (J),1,0,0.0,6.2,HISS-H03-05,no,scored
+ISO27001,A.8.1,User endpoint devices,VERIFIED,HISS-F3-04 (P); HISS-H04-02 (P),2,0,0.0,12.5,HISS-F3-04,no,scored
+ISO27001,A.8.2,Privileged access rights,VERIFIED,HISS-F4-02 (P); HISS-F4-05 (P); HISS-H07-03 (J); HISS-H09-04 (P),3,0,0.0,12.5,HISS-F4-02,no,scored
+ISO27001,A.8.3,Information access restriction,VERIFIED,HISS-H01-01 (P); HISS-H05-05 (P),2,0,0.0,12.5,HISS-H01-01,no,scored
+ISO27001,A.8.4,Access to source code,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.5,Secure authentication,VERIFIED,HISS-F4-01 (P); HISS-F4-03 (P); HISS-H04-03 (P); HISS-H07-01 (P); HISS-H09-04 (P),4,0,0.0,12.5,HISS-F4-01,no,scored
+ISO27001,A.8.6,Capacity management,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.7,Protection against malware,VERIFIED,HISS-F5-05 (P),1,0,0.0,12.5,HISS-F5-05,no,scored
+ISO27001,A.8.8,Management of technical vulnerabilities,VERIFIED,HISS-F5-02 (P); HISS-F5-04 (D); HISS-H01-04 (P),2,0,0.0,12.5,HISS-F5-02,no,scored
+ISO27001,A.8.9,Configuration management,VERIFIED,HISS-F5-01 (D); HISS-H03-03 (D); HISS-H03-04 (D); HISS-H04-02 (D); HISS-H05-03 (P); HISS-H06-01 (P),5,3,25.0,25.0,HISS-F5-01,no,scored
+ISO27001,A.8.10,Information deletion,VERIFIED,HISS-H02-05 (P); HISS-H03-05 (P); HISS-H06-02 (P); HISS-H08-04 (P),4,0,0.0,12.5,HISS-H02-05,no,scored
+ISO27001,A.8.11,Data masking,VERIFIED,HISS-H01-02 (P); HISS-H04-01 (J); HISS-H08-02 (P),3,0,0.0,25.0,HISS-H01-02,no,scored
+ISO27001,A.8.12,Data leakage prevention,VERIFIED,HISS-H01-05 (P); HISS-H06-03 (P),1,0,0.0,12.5,HISS-H06-03,no,scored
+ISO27001,A.8.13,Information backup,VERIFIED,HISS-F6-04 (D),1,1,25.0,25.0,HISS-F6-04,no,scored
+ISO27001,A.8.14,Redundancy of information processing facilities,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.15,Logging,VERIFIED,HISS-F6-01 (D); HISS-H03-02 (P); HISS-H04-04 (P); HISS-H07-04 (P),2,1,25.0,25.0,HISS-F6-01,no,scored
+ISO27001,A.8.16,Monitoring activities,VERIFIED,HISS-F6-02 (D),0,0,,,,,no applicable control
+ISO27001,A.8.17,Clock synchronization,VERIFIED,HISS-F6-01 (D),1,1,25.0,25.0,HISS-F6-01,no,scored
+ISO27001,A.8.18,Use of privileged utility programs,VERIFIED,HISS-F4-02 (J),1,0,0.0,6.2,HISS-F4-02,no,scored
+ISO27001,A.8.19,Installation of software on operational systems,VERIFIED,HISS-H01-04 (P); HISS-H03-04 (J); HISS-H07-05 (D),2,1,25.0,25.0,HISS-H07-05,no,scored
+ISO27001,A.8.20,Networks security,VERIFIED,HISS-F5-01 (P); HISS-H01-03 (P); HISS-H03-01 (P); HISS-H05-05 (P); HISS-H07-01 (P); HISS-H07-05 (J),6,0,0.0,25.0,HISS-H03-01,no,scored
+ISO27001,A.8.21,Security of network services,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.22,Segregation of networks,VERIFIED,HISS-H01-03 (P); HISS-H02-02 (P); HISS-H03-01 (P); HISS-H05-02 (P); HISS-H06-01 (P),5,0,0.0,25.0,HISS-H03-01,no,scored
+ISO27001,A.8.23,Web filtering,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.24,Use of cryptography,VERIFIED,HISS-F5-03 (P); HISS-H04-03 (P); HISS-H08-02 (P),2,0,0.0,12.5,HISS-F5-03,no,scored
+ISO27001,A.8.25,Secure development life cycle,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.26,Application security requirements,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.27,Secure system architecture and engineering principles,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.28,Secure coding,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.29,Security testing in development and acceptance,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.30,Outsourced development,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.31,"Separation of development, test and production environments",,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.32,Change management,VERIFIED,HISS-F5-02 (J),1,0,0.0,6.2,HISS-F5-02,no,scored
+ISO27001,A.8.33,Test information,,,0,0,,,,,not reached by any HISS control
+ISO27001,A.8.34,Protection of information systems during audit testing,,,0,0,,,,,not reached by any HISS control
+ISO27001,C.4.3,Determining the scope of the information security management system,VERIFIED,HISS-F1-01 (P),1,0,0.0,12.5,HISS-F1-01,no,scored
+ISO27001,C.5.3,"Organizational roles, responsibilities and authorities",VERIFIED,HISS-F1-02 (P),1,0,0.0,12.5,HISS-F1-02,no,scored
+ISO27001,C.6.1.2,Information security risk assessment,VERIFIED,HISS-F2-02 (P),1,0,0.0,25.0,HISS-F2-02,no,scored
+ISO27001,C.6.1.3,Information security risk treatment,VERIFIED,HISS-F1-04 (P); HISS-F1-05 (P),2,0,0.0,12.5,HISS-F1-04,no,scored
+ISO27001,C.8.2,Information security risk assessment,VERIFIED,HISS-F2-02 (P),1,0,0.0,25.0,HISS-F2-02,no,scored
+ISO27001,C.9.3.2,Management review inputs,VERIFIED,HISS-F2-05 (P),0,0,,,,,no applicable control
+PCIDSS,1,Install and Maintain Network Security Controls,VERIFIED,HISS-H01-03 (P); HISS-H02-01 (D); HISS-H02-02 (P); HISS-H03-01 (P); HISS-H05-02 (J); HISS-H06-01 (J),6,1,25.0,25.0,HISS-H02-01,no,scored
+PCIDSS,2,Apply Secure Configurations to All System Components,VERIFIED,HISS-F5-01 (D); HISS-H03-03 (J); HISS-H05-03 (J),3,1,25.0,25.0,HISS-F5-01,no,scored
+PCIDSS,2.2.1,Sub requirement of Requirement 2 (number web checked in Capstone 1),VERIFIED,HISS-F5-01 (P),1,0,0.0,12.5,HISS-F5-01,no,scored
+PCIDSS,3,Protect Stored Account Data,VERIFIED,HISS-F6-05 (J); HISS-H01-02 (D); HISS-H02-05 (D); HISS-H08-04 (J),4,2,50.0,50.0,HISS-H01-02,no,scored
+PCIDSS,4,"Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks",VERIFIED,HISS-F5-03 (P),1,0,0.0,12.5,HISS-F5-03,no,scored
+PCIDSS,4.2.1,Sub requirement of Requirement 4 (number web checked in Capstone 1),VERIFIED,HISS-F5-03 (P),1,0,0.0,12.5,HISS-F5-03,no,scored
+PCIDSS,5,Protect All Systems and Networks from Malicious Software,VERIFIED,HISS-F5-05 (P),1,0,0.0,12.5,HISS-F5-05,no,scored
+PCIDSS,6,Develop and Maintain Secure Systems and Software,VERIFIED,HISS-F5-02 (D); HISS-H01-04 (D),2,2,25.0,25.0,HISS-F5-02,no,scored
+PCIDSS,6.3.3,Sub requirement of Requirement 6 (number web checked in Capstone 1),VERIFIED,HISS-F5-02 (P),1,0,0.0,12.5,HISS-F5-02,no,scored
+PCIDSS,7,Restrict Access to System Components and Cardholder Data by Business Need to Know,VERIFIED,HISS-F4-02 (P); HISS-F4-04 (P); HISS-H01-01 (P),3,0,0.0,12.5,HISS-F4-02,no,scored
+PCIDSS,8,Identify Users and Authenticate Access to System Components,VERIFIED,HISS-F3-02 (P); HISS-F3-04 (J); HISS-F4-01 (P); HISS-F4-02 (P); HISS-F4-03 (P); HISS-F4-05 (P); HISS-H07-01 (P); HISS-H07-02 (P); HISS-H07-03 (J); HISS-H09-04 (J),9,0,0.0,12.5,HISS-F3-02,no,scored
+PCIDSS,8.4.3,Sub requirement of Requirement 8 (number web checked in Capstone 1),VERIFIED,HISS-F4-03 (P); HISS-H07-01 (P),2,0,0.0,12.5,HISS-F4-03,no,scored
+PCIDSS,9,Restrict Physical Access to Cardholder Data,VERIFIED,HISS-F6-05 (P); HISS-H02-03 (D),2,1,25.0,25.0,HISS-H02-03,no,scored
+PCIDSS,10,Log and Monitor All Access to System Components and Cardholder Data,VERIFIED,HISS-F6-01 (D); HISS-F6-02 (D); HISS-H07-04 (P),1,1,25.0,25.0,HISS-F6-01,no,scored
+PCIDSS,11,Test Security of Systems and Networks Regularly,VERIFIED,HISS-F5-04 (D); HISS-H02-02 (P),1,0,0.0,0.0,HISS-H02-02,no,scored
+PCIDSS,12,Support Information Security with Organizational Policies and Programs,VERIFIED,HISS-F1-01 (P); HISS-F1-02 (P); HISS-F1-03 (D); HISS-F1-05 (J); HISS-F2-01 (J); HISS-F2-02 (D); HISS-F2-03 (J); HISS-F2-04 (J); HISS-F2-05 (J); HISS-F3-01 (D); HISS-F3-03 (J); HISS-F3-05 (P); HISS-F6-03 (D); HISS-H02-01 (D); HISS-H02-06 (P),14,5,50.0,50.0,HISS-F2-02,no,scored
+PCIDSS,12.3.4,Sub requirement of Requirement 12 (number web checked in Capstone 1),VERIFIED,HISS-H01-04 (P),1,0,0.0,12.5,HISS-H01-04,no,scored
+PCIDSS,12.8.2,Written agreement with third party service providers,VERIFIED,HISS-H02-04 (D); HISS-H10-01 (P),2,1,50.0,50.0,HISS-H02-04,no,scored
+PCIDSS,12.8.4,Annual check of service provider compliance status,VERIFIED,HISS-H02-04 (D); HISS-H10-02 (P),1,1,50.0,50.0,HISS-H02-04,no,scored
+CSF,DE.AE,Adverse Event Analysis,VERIFIED,HISS-F6-02 (P),0,0,,,,,no applicable control
+CSF,DE.CM,Continuous Monitoring,VERIFIED,HISS-F5-05 (P); HISS-F6-02 (P); HISS-H02-03 (P); HISS-H04-04 (P); HISS-H07-04 (P),3,0,0.0,12.5,HISS-F5-05,no,scored
+CSF,GV.OC,Organizational Context,VERIFIED,HISS-F1-01 (J); HISS-F2-03 (P); HISS-H02-06 (P); HISS-H06-04 (J); HISS-H08-03 (P); HISS-H08-05 (J); HISS-H08-06 (J); HISS-H09-05 (P),8,0,0.0,25.0,HISS-H08-03,no,scored
+CSF,GV.OV,Oversight,VERIFIED,HISS-F2-04 (P); HISS-F2-05 (P),1,0,0.0,25.0,HISS-F2-04,no,scored
+CSF,GV.PO,Policy,VERIFIED,HISS-F1-01 (J); HISS-F1-03 (P),2,0,0.0,12.5,HISS-F1-03,no,scored
+CSF,GV.RM,Risk Management Strategy,VERIFIED,HISS-F1-04 (J); HISS-F1-05 (J); HISS-F2-02 (P),3,0,0.0,25.0,HISS-F2-02,no,scored
+CSF,GV.RR,"Roles, Responsibilities and Authorities",VERIFIED,HISS-F1-02 (P); HISS-H10-03 (J),2,0,0.0,12.5,HISS-F1-02,no,scored
+CSF,GV.SC,Cybersecurity Supply Chain Risk Management,VERIFIED,HISS-H02-04 (P); HISS-H05-04 (J); HISS-H09-02 (P); HISS-H09-03 (P); HISS-H10-01 (P); HISS-H10-02 (P); HISS-H10-03 (P); HISS-H10-05 (J),5,0,0.0,25.0,HISS-H02-04,no,scored
+CSF,ID.AM,Asset Management,VERIFIED,HISS-F2-01 (P); HISS-H02-01 (P); HISS-H05-01 (P); HISS-H05-05 (P); HISS-H08-01 (P); HISS-H08-04 (J); HISS-H09-01 (P),7,0,0.0,12.5,HISS-F2-01,no,scored
+CSF,ID.IM,Improvement,VERIFIED,HISS-F2-04 (P); HISS-F6-03 (P); HISS-H10-04 (P),2,0,0.0,25.0,HISS-F2-04,no,scored
+CSF,ID.RA,Risk Assessment,VERIFIED,HISS-F1-04 (J); HISS-F1-05 (P); HISS-F2-02 (P); HISS-F5-02 (J); HISS-F5-04 (P); HISS-H10-05 (J),4,0,0.0,25.0,HISS-F2-02,no,scored
+CSF,PR.AA,"Identity Management, Authentication and Access Control",VERIFIED,HISS-F3-02 (P); HISS-F4-01 (P); HISS-F4-02 (P); HISS-F4-03 (P); HISS-F4-04 (P); HISS-F4-05 (P); HISS-H01-01 (P); HISS-H03-02 (P); HISS-H04-03 (P); HISS-H05-03 (P); HISS-H05-04 (J); HISS-H07-01 (P); HISS-H07-02 (P); HISS-H07-03 (P); HISS-H09-04 (P),12,0,0.0,12.5,HISS-F3-02,no,scored
+CSF,PR.AT,Awareness and Training,VERIFIED,HISS-F3-01 (P); HISS-F3-03 (P); HISS-F3-05 (J),3,0,0.0,12.5,HISS-F3-01,no,scored
+CSF,PR.DS,Data Security,VERIFIED,HISS-F5-03 (P); HISS-F6-04 (P); HISS-H01-02 (P); HISS-H01-05 (J); HISS-H02-05 (P); HISS-H03-05 (J); HISS-H04-01 (J); HISS-H06-02 (J); HISS-H06-03 (J); HISS-H08-02 (P); HISS-H08-04 (J),10,0,0.0,25.0,HISS-H01-02,no,scored
+CSF,PR.IR,Technology Infrastructure Resilience,VERIFIED,HISS-F5-01 (J); HISS-F6-05 (J); HISS-H01-03 (P); HISS-H02-02 (P); HISS-H03-01 (P); HISS-H05-02 (P); HISS-H06-01 (P); HISS-H07-01 (P),8,0,0.0,25.0,HISS-H03-01,no,scored
+CSF,PR.PS,Platform Security,VERIFIED,HISS-F3-04 (J); HISS-F5-01 (P); HISS-F5-02 (P); HISS-F5-05 (J); HISS-F6-01 (P); HISS-H01-04 (P); HISS-H03-02 (J); HISS-H03-03 (P); HISS-H03-04 (P); HISS-H04-02 (P); HISS-H07-05 (P),9,0,0.0,12.5,HISS-F5-01,no,scored
+CSF,RC.CO,Incident recovery communication,,,0,0,,,,,not reached by any HISS control
+CSF,RC.RP,Incident Recovery Plan Execution,VERIFIED,HISS-F6-04 (P); HISS-F6-05 (J),2,0,0.0,12.5,HISS-F6-04,no,scored
+CSF,RS.AN,Incident analysis,,,0,0,,,,,not reached by any HISS control
+CSF,RS.CO,Incident Response Reporting and Communication,VERIFIED,HISS-F6-03 (P),1,0,0.0,0.0,HISS-F6-03,no,scored
+CSF,RS.MA,Incident management,,,0,0,,,,,not reached by any HISS control
+CSF,RS.MI,Incident mitigation,,,0,0,,,,,not reached by any HISS control
+CIS,1,Inventory and Control of Enterprise Assets,VERIFIED,HISS-F1-01 (J); HISS-F1-04 (J); HISS-H02-01 (P); HISS-H02-03 (J); HISS-H10-05 (J),4,0,0.0,12.5,HISS-H02-01,no,scored
+CIS,1.1,Safeguard under Control 1 Inventory and Control of Enterprise Assets,VERIFIED,HISS-F2-01 (D); HISS-H05-01 (D),2,2,25.0,25.0,HISS-F2-01,no,scored
+CIS,2,Inventory and Control of Software Assets,VERIFIED,HISS-H03-04 (J); HISS-H05-01 (J),1,0,0.0,6.2,HISS-H05-01,no,scored
+CIS,2.1,Safeguard under Control 2 Inventory and Control of Software Assets,VERIFIED,HISS-F2-01 (D),1,1,25.0,25.0,HISS-F2-01,no,scored
+CIS,2.2,Safeguard under Control 2 Inventory and Control of Software Assets,VERIFIED,HISS-H01-04 (D),1,1,25.0,25.0,HISS-H01-04,no,scored
+CIS,2.5,Safeguard under Control 2 Inventory and Control of Software Assets,VERIFIED,HISS-H07-05 (D),1,1,25.0,25.0,HISS-H07-05,no,scored
+CIS,3,Data Protection,VERIFIED,HISS-F2-03 (J); HISS-H01-05 (P); HISS-H02-05 (P); HISS-H03-05 (J); HISS-H04-01 (P); HISS-H04-03 (J); HISS-H06-02 (P); HISS-H06-03 (P); HISS-H06-04 (J); HISS-H08-03 (J); HISS-H08-04 (P); HISS-H08-05 (J); HISS-H08-06 (J); HISS-H09-05 (J),12,0,0.0,12.5,HISS-H02-05,no,scored
+CIS,3.2,Safeguard under Control 3 Data Protection,VERIFIED,HISS-H08-01 (D),1,1,0.0,0.0,HISS-H08-01,no,scored
+CIS,3.8,Safeguard under Control 3 Data Protection,VERIFIED,HISS-H02-01 (D),1,1,25.0,25.0,HISS-H02-01,no,scored
+CIS,3.10,Safeguard under Control 3 Data Protection,VERIFIED,HISS-F5-03 (D),1,1,25.0,25.0,HISS-F5-03,no,scored
+CIS,3.11,Safeguard under Control 3 Data Protection,VERIFIED,HISS-H01-02 (D); HISS-H08-02 (D),2,2,50.0,50.0,HISS-H01-02,no,scored
+CIS,4,Secure Configuration of Enterprise Assets and Software,VERIFIED,HISS-F1-05 (J); HISS-F3-04 (P); HISS-F5-03 (P); HISS-H01-03 (P); HISS-H05-03 (P); HISS-H06-01 (P),6,0,0.0,12.5,HISS-F3-04,no,scored
+CIS,4.1,Safeguard under Control 4 Secure Configuration of Enterprise Assets and Software,VERIFIED,HISS-F5-01 (D); HISS-H03-03 (D); HISS-H03-04 (D); HISS-H04-02 (D),3,3,25.0,25.0,HISS-F5-01,no,scored
+CIS,5,Account Management,VERIFIED,HISS-F3-02 (P); HISS-F4-01 (P); HISS-F4-02 (P); HISS-F4-04 (P); HISS-F4-05 (P); HISS-H05-03 (P); HISS-H07-02 (P); HISS-H09-04 (P),7,0,0.0,12.5,HISS-F3-02,no,scored
+CIS,6,Access Control Management,VERIFIED,HISS-F3-02 (P); HISS-F4-02 (P); HISS-F4-03 (P); HISS-F4-04 (P); HISS-H05-04 (P); HISS-H06-02 (J); HISS-H07-01 (P); HISS-H07-03 (P); HISS-H09-04 (P),9,0,0.0,12.5,HISS-F3-02,no,scored
+CIS,6.8,Safeguard under Control 6 Access Control Management,VERIFIED,HISS-H01-01 (P),1,0,0.0,12.5,HISS-H01-01,no,scored
+CIS,7,Continuous Vulnerability Management,VERIFIED,HISS-F2-02 (J); HISS-F2-05 (J); HISS-F5-02 (P); HISS-F5-04 (P); HISS-H10-05 (J),2,0,0.0,12.5,HISS-F2-02,no,scored
+CIS,8,Audit Log Management,VERIFIED,HISS-F6-02 (J); HISS-H03-02 (P); HISS-H04-04 (P); HISS-H06-03 (J); HISS-H07-04 (P),2,0,0.0,12.5,HISS-H04-04,no,scored
+CIS,8.2,Safeguard under Control 8 Audit Log Management,VERIFIED,HISS-F6-01 (D),1,1,25.0,25.0,HISS-F6-01,no,scored
+CIS,9,Email and web browser protections,,,0,0,,,,,not reached by any HISS control
+CIS,10.1,Safeguard under Control 10 Malware Defenses,VERIFIED,HISS-F5-05 (D),1,1,25.0,25.0,HISS-F5-05,no,scored
+CIS,11,Data Recovery,VERIFIED,HISS-F6-05 (J),1,0,0.0,6.2,HISS-F6-05,no,scored
+CIS,11.2,Safeguard under Control 11 Data Recovery,VERIFIED,HISS-F6-04 (P),1,0,0.0,12.5,HISS-F6-04,no,scored
+CIS,11.5,Safeguard under Control 11 Data Recovery,VERIFIED,HISS-F6-04 (D),1,1,25.0,25.0,HISS-F6-04,no,scored
+CIS,12,Network Infrastructure Management,VERIFIED,HISS-H03-03 (P); HISS-H05-05 (P),2,0,0.0,12.5,HISS-H03-03,no,scored
+CIS,12.2,Safeguard under Control 12 Network Infrastructure Management,VERIFIED,HISS-H01-03 (D); HISS-H02-02 (D); HISS-H03-01 (D); HISS-H05-02 (D); HISS-H06-01 (D); HISS-H07-01 (D),6,6,50.0,50.0,HISS-H03-01,no,scored
+CIS,13,Network Monitoring and Defense,VERIFIED,HISS-H05-05 (J),1,0,0.0,6.2,HISS-H05-05,no,scored
+CIS,13.1,Safeguard under Control 13 Network Monitoring and Defense,VERIFIED,HISS-F6-02 (D),0,0,,,,,no applicable control
+CIS,14,Security Awareness and Skills Training,VERIFIED,HISS-F1-03 (J); HISS-F3-05 (J),2,0,0.0,6.2,HISS-F1-03,no,scored
+CIS,14.1,Safeguard under Control 14 Security Awareness and Skills Training,VERIFIED,HISS-F3-01 (D),1,1,25.0,25.0,HISS-F3-01,no,scored
+CIS,14.9,Safeguard under Control 14 Security Awareness and Skills Training,VERIFIED,HISS-F3-03 (D),1,1,25.0,25.0,HISS-F3-03,no,scored
+CIS,15,Service Provider Management,VERIFIED,HISS-H05-04 (P); HISS-H07-02 (P); HISS-H10-03 (J),3,0,0.0,6.2,HISS-H10-03,no,scored
+CIS,15.1,Safeguard under Control 15 Service Provider Management,VERIFIED,HISS-H09-01 (D),1,1,25.0,25.0,HISS-H09-01,no,scored
+CIS,15.3,Safeguard under Control 15 Service Provider Management,VERIFIED,HISS-H10-02 (D),0,0,,,,,no applicable control
+CIS,15.4,Safeguard under Control 15 Service Provider Management,VERIFIED,HISS-H02-04 (D); HISS-H09-02 (D); HISS-H10-01 (D),2,2,50.0,50.0,HISS-H02-04,no,scored
+CIS,15.6,Safeguard under Control 15 Service Provider Management,VERIFIED,HISS-H04-04 (D); HISS-H09-03 (D),2,2,25.0,25.0,HISS-H04-04,no,scored
+CIS,16,Application Software Security,VERIFIED,HISS-H04-03 (J),0,0,,,,,no applicable control
+CIS,17,Incident Response Management,VERIFIED,HISS-F1-02 (J),1,0,0.0,6.2,HISS-F1-02,no,scored
+CIS,17.2,Safeguard under Control 17 Incident Response Management,VERIFIED,HISS-F6-03 (D),1,1,0.0,0.0,HISS-F6-03,no,scored
+CIS,18,Penetration Testing,VERIFIED,HISS-F2-04 (J); HISS-F5-04 (P); HISS-H02-06 (J); HISS-H10-04 (J),2,0,0.0,12.5,HISS-F2-04,no,scored
+CCM,A&A,Audit and Assurance,VERIFIED,HISS-F2-04 (P); HISS-H02-06 (P); HISS-H10-04 (P),2,0,0.0,25.0,HISS-F2-04,no,scored
+CCM,AIS,Application and interface security,,,0,0,,,,,not reached by any HISS control
+CCM,BCR,Business Continuity Management and Operational Resilience,VERIFIED,HISS-F6-04 (D); HISS-F6-05 (P),2,1,25.0,25.0,HISS-F6-04,no,scored
+CCM,CCC,Change Control and Configuration Management,VERIFIED,HISS-F5-01 (P); HISS-H03-03 (P),2,0,0.0,12.5,HISS-F5-01,no,scored
+CCM,CEK,"Cryptography, Encryption and Key Management",VERIFIED,HISS-F5-03 (P),1,0,0.0,12.5,HISS-F5-03,no,scored
+CCM,DCS,Datacenter Security,VERIFIED,HISS-H02-03 (J),1,0,0.0,6.2,HISS-H02-03,no,scored
+CCM,DSP,Data Security and Privacy,VERIFIED,HISS-H01-02 (P); HISS-H01-05 (P); HISS-H02-01 (P); HISS-H02-05 (P); HISS-H03-05 (J); HISS-H04-01 (P); HISS-H06-02 (P); HISS-H06-03 (P); HISS-H06-04 (J); HISS-H08-01 (D); HISS-H08-02 (P); HISS-H08-04 (P); HISS-H08-05 (P); HISS-H08-06 (J); HISS-H09-05 (P),14,1,0.0,25.0,HISS-H01-02,no,scored
+CCM,GRC,"Governance, Risk Management and Compliance",VERIFIED,HISS-F1-01 (P); HISS-F1-02 (P); HISS-F1-03 (P); HISS-F1-04 (J); HISS-F1-05 (P); HISS-F2-02 (P); HISS-F2-03 (P); HISS-F2-05 (J); HISS-H08-03 (P); HISS-H10-05 (P),8,0,0.0,25.0,HISS-F2-02,no,scored
+CCM,HRS,Human Resources Security,VERIFIED,HISS-F3-01 (P); HISS-F3-03 (P); HISS-F3-05 (P),3,0,0.0,12.5,HISS-F3-01,no,scored
+CCM,IAM,Identity and Access Management,VERIFIED,HISS-F3-02 (P); HISS-F4-01 (P); HISS-F4-02 (P); HISS-F4-03 (P); HISS-F4-04 (P); HISS-F4-05 (P); HISS-H01-01 (P); HISS-H03-02 (J); HISS-H04-03 (P); HISS-H05-03 (P); HISS-H07-01 (P); HISS-H07-02 (P); HISS-H07-03 (P); HISS-H09-04 (P),11,0,0.0,12.5,HISS-F3-02,no,scored
+CCM,IPY,Interoperability and portability,,,0,0,,,,,not reached by any HISS control
+CCM,IVS,Infrastructure and Virtualization Security,VERIFIED,HISS-H01-03 (P); HISS-H02-02 (P); HISS-H03-01 (P); HISS-H05-02 (P); HISS-H05-05 (P); HISS-H06-01 (P),6,0,0.0,25.0,HISS-H03-01,no,scored
+CCM,LOG,Logging and Monitoring,VERIFIED,HISS-F6-01 (D); HISS-F6-02 (P); HISS-H04-04 (D); HISS-H07-04 (D),2,2,25.0,25.0,HISS-F6-01,no,scored
+CCM,SEF,"Security Incident Management, E-Discovery and Cloud Forensics",VERIFIED,HISS-F6-03 (D),1,1,0.0,0.0,HISS-F6-03,no,scored
+CCM,STA,"Supply Chain Management, Transparency and Accountability",VERIFIED,HISS-H02-04 (P); HISS-H05-04 (P); HISS-H09-01 (P); HISS-H09-02 (P); HISS-H09-03 (D); HISS-H10-01 (P); HISS-H10-02 (D); HISS-H10-03 (P),6,1,25.0,25.0,HISS-H09-03,no,scored
+CCM,TVM,Threat and Vulnerability Management,VERIFIED,HISS-F5-02 (P); HISS-F5-04 (D); HISS-H01-04 (P),2,0,0.0,12.5,HISS-F5-02,no,scored
+CCM,UEM,Universal Endpoint Management,VERIFIED,HISS-F2-01 (P); HISS-F3-04 (P); HISS-F5-05 (P); HISS-H03-04 (P); HISS-H04-02 (P); HISS-H05-01 (P); HISS-H07-05 (D),6,1,25.0,25.0,HISS-H07-05,no,scored
+SP1800-27,Auditing logging and reporting,SP 1800-27 Vol B security characteristic,VERIFIED,HISS-F6-01 (P); HISS-H07-04 (P),1,0,0.0,12.5,HISS-F6-01,no,scored
+SP1800-27,Guest Wi-Fi internet only tied to reservation,SP 1800-27 Vol B design point,VERIFIED,HISS-H03-01 (D); HISS-H03-02 (D),1,1,50.0,50.0,HISS-H03-01,no,scored
+SP1800-27,Lock server receives room number only,SP 1800-27 Vol B design point,VERIFIED,HISS-H04-01 (D),1,1,25.0,25.0,HISS-H04-01,no,scored
+SP1800-27,Protected zone for PMS and supporting systems,SP 1800-27 Vol B design point (three network zones),VERIFIED,HISS-H01-03 (D),1,1,0.0,0.0,HISS-H01-03,no,scored
+SP1800-27,Protection against lateral movement and privilege escalation,SP 1800-27 Vol B security characteristic,VERIFIED,HISS-F4-02 (P),1,0,0.0,12.5,HISS-F4-02,no,scored
+SP1800-27,Protection of personal information,SP 1800-27 Vol B security characteristic,VERIFIED,HISS-H01-05 (P); HISS-H03-05 (P); HISS-H08-01 (P),2,0,0.0,12.5,HISS-H03-05,no,scored
+SP1800-27,Role based authentication and access control,SP 1800-27 Vol B security characteristic,VERIFIED,HISS-F4-01 (P); HISS-H01-01 (D),2,1,25.0,25.0,HISS-H01-01,no,scored
+SP1800-27,Tokenization with allowlisting,SP 1800-27 Vol B security characteristic,VERIFIED,HISS-H01-02 (D),1,1,50.0,50.0,HISS-H01-02,no,scored
+HTNG,Converged network policy per user and device,HTNG NGI Technology Guide v1.0 security content,VERIFIED,HISS-H02-02 (P); HISS-H03-01 (D); HISS-H05-02 (D),3,2,50.0,50.0,HISS-H03-01,no,scored
+HTNG,Door lock solution criteria,HTNG Door Lock Security Best Practices v1.0 section,VERIFIED,HISS-H04-02 (P); HISS-H04-04 (P),2,0,0.0,12.5,HISS-H04-02,no,scored
+HTNG,Mobile key best practices,HTNG Door Lock Security Best Practices v1.0 section,VERIFIED,HISS-H04-03 (P),0,0,,,,,no applicable control
+HTNG,Online door lock end points,HTNG Door Lock Security Best Practices v1.0 section,VERIFIED,HISS-H04-03 (P),0,0,,,,,no applicable control
+HTNG,Secure Payments Framework tokenisation,HTNG Secure Payments Framework concept (trade press only),SECONDARY,HISS-H01-02 (P),1,0,0.0,25.0,HISS-H01-02,no,scored

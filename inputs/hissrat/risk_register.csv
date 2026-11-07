@@ -1,0 +1,30 @@
+rank,system_id,property,role,role_group,tier,tier_weight,critical,high,medium,low,info,technical_score,risk_score,system_index,risk_band
+1,PROP-C-SQL-01,PROP-C,SQL server,SQL and SQL backup,1,5,15,16,21,4,49,313,1565,100.0,Critical
+2,PROP-D-AD-01,PROP-D,AD (domain controller),AD,1,5,3,2,6,3,52,63,315,20.1,Critical
+3,PROP-C-IFS-01,PROP-C,Interface server,Interface server,1,5,0,2,10,1,46,43,215,13.7,High
+4,PROP-D-HMS-01,PROP-D,PMS,PMS,1,5,1,1,6,1,42,35,175,11.2,High
+5,PROP-C-SQLBK-01,PROP-C,SQL backup server,SQL and SQL backup,1,5,0,2,6,0,36,30,150,9.6,High
+6,PROP-E-AD-01,PROP-E,AD (domain controller),AD,1,5,0,1,7,1,53,28,140,8.9,High
+7,PROP-A-HMS-01,PROP-A,PMS,PMS,1,5,0,1,6,1,40,25,125,8.0,High
+8,PROP-C-AD-01,PROP-C,AD (domain controller),AD,1,5,0,1,5,0,34,21,105,6.7,High
+9,PROP-A-AD-01,PROP-A,AD (domain controller),AD,1,5,0,1,4,1,45,19,95,6.1,Medium
+10,PROP-E-GNET-01,PROP-E,Guest internet platform,Guest internet platform,2,3,0,0,10,1,57,31,93,5.9,Medium
+11,PROP-F-FBM-01,PROP-F,F and B manager,Other desktops and managers,2,3,0,1,7,1,35,28,84,5.4,Medium
+12,PROP-D-ACCT-01,PROP-D,Accounting package,Accounting package,2,3,0,1,6,1,50,25,75,4.8,Medium
+13,PROP-F-ACC-01,PROP-F,Accounts,Finance and accounts,2,3,0,0,4,1,33,13,39,2.5,Medium
+14,PROP-D-FO-01,PROP-D,Front office,Front desk and front office,2,3,0,0,4,1,33,13,39,2.5,Medium
+15,PROP-C-FBC-01,PROP-C,F and B controls,Other desktops and managers,2,3,0,1,1,0,19,9,27,1.7,Low
+16,PROP-C-FIN-01,PROP-C,Finance and accounts manager,Finance and accounts,2,3,0,1,1,0,23,9,27,1.7,Low
+17,PROP-C-IRS-01,PROP-C,In room server,In room platform,3,2,0,1,1,0,23,9,18,1.2,Low
+18,PROP-A-ADM-01,PROP-A,Admin desktop,Other desktops and managers,4,1,0,0,5,1,44,16,16,1.0,Low
+19,PROP-C-ITS-01,PROP-C,IT system,Other desktops and managers,4,1,0,1,2,0,30,12,12,0.8,Low
+20,PROP-A-ACC-01,PROP-A,Accounts,Finance and accounts,2,3,0,0,1,1,29,4,12,0.8,Low
+21,PROP-E-ACCT-01,PROP-E,Accounting package,Accounting package,2,3,0,0,1,1,22,4,12,0.8,Low
+22,PROP-C-HR-01,PROP-C,HR manager,Other desktops and managers,4,1,0,1,1,0,20,9,9,0.6,Low
+23,PROP-F-BO-01,PROP-F,Back office,Other desktops and managers,4,1,0,0,1,0,19,3,3,0.2,Low
+24,PROP-E-DSK-01,PROP-E,Desktop,Other desktops and managers,4,1,0,0,1,0,21,3,3,0.2,Low
+25,PROP-B-IRS-01,PROP-B,In room server,In room platform,3,2,0,0,0,1,8,1,2,0.1,Low
+26,PROP-C-IRG-01,PROP-C,In room gateway,In room platform,3,2,0,0,0,0,11,0,0,0.0,None
+27,PROP-C-GNET-01,PROP-C,Guest internet platform,Guest internet platform,2,3,0,0,0,0,12,0,0,0.0,None
+28,PROP-E-FD-01,PROP-E,Front desk 1,Front desk and front office,2,3,0,0,0,0,4,0,0,0.0,None
+29,PROP-E-FD-02,PROP-E,Front desk 2,Front desk and front office,2,3,0,0,0,0,15,0,0,0.0,None

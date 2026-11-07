@@ -1,0 +1,22 @@
+req_id,text,c1_ref,control_ids
+R01,Patch and restore rules for a front desk that never closes,"Table 10.1 row 1 (E06, E14)",HISS-F5-02;HISS-F6-04;HISS-F6-05
+R02,Shift based access and fast user switching on shared front desk terminals,"Table 10.1 row 2 (E02, E20)",HISS-F4-01;HISS-F3-04;HISS-H01-01
+R03,"Per vendor accounts, approved access windows and session logs",Table 10.1 row 3 (E09),HISS-H07-01;HISS-H07-02;HISS-H07-03;HISS-H07-04;HISS-H07-05
+R04,Short role based induction and exit checks for seasonal and outsourced staff,Table 10.1 row 4 (E17),HISS-F3-01;HISS-F3-02;HISS-F3-05
+R05,Property baselines under group oversight,"Table 10.1 row 5 (E04, E10)",HISS-F1-01;HISS-F1-02;HISS-F1-04;HISS-F2-04
+R06,"One guest data lifecycle across card data, ID scans, registers, folios and CCTV",Table 10.1 row 6 (A10),HISS-H08-01;HISS-H08-04;HISS-H02-05;HISS-H06-02
+R07,Controlled handling of operational overrides of IT rules,Section 10.2 text (E17),HISS-F1-05;HISS-H07-03;HISS-F6-05
+L1,Email attachments of guest lists,Fig. 10.3 L1 (A15),HISS-H01-05;HISS-H08-01
+L2,Vendor laptops and remote sessions,Fig. 10.3 L2 (A15),HISS-H07-01;HISS-H07-02;HISS-H07-04
+L3,Unencrypted FTP and SMTP content,"Fig. 10.3 L3 (E08, A15)",HISS-F5-01;HISS-H03-03;HISS-F5-03
+L4,Shared folders on front office PCs,"Fig. 10.3 L4 (E06, A15)",HISS-F3-04;HISS-F5-01;HISS-H08-01
+L5,USB media,Fig. 10.3 L5 (A15),HISS-F5-05;HISS-F3-04
+L6,Printed folios,Fig. 10.3 L6 (A15),HISS-H08-02;HISS-F6-05;HISS-H08-04
+L7,Backup copy on an unencrypted peer share,Fig. 10.3 L7 (A15),HISS-F6-04;HISS-H08-04
+L8,Retention longer than needed,"Fig. 10.3 L8 (A10, A15)",HISS-H08-04;HISS-H06-02;HISS-H02-05
+L9,CCTV exports,Fig. 10.3 L9 (A15),HISS-H06-03;HISS-H06-02
+P1,Vendor remote access with shared accounts and no session logs,Table 10.4 P1 (A14),HISS-H05-04;HISS-H07-02;HISS-H07-04
+P2,"Shared drive of drawings, camera layouts and contracts",Table 10.4 P2 (A14),HISS-H05-05;HISS-F4-04
+P3,USB media on engineering workstations,Table 10.4 P3 (A14),HISS-F5-05;HISS-H05-05
+P4,"Flat network from engineering to PMS, SQL and front office",Table 10.4 P4 (A08),HISS-H05-02;HISS-H02-02;HISS-H01-03
+P5,Default credentials over BACnet and Modbus,"Table 10.4 P5 (A13, A14)",HISS-H05-03;HISS-H05-05

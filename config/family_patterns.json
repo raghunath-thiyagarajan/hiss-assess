@@ -1,0 +1,127 @@
+{
+ "_note": "Finding family patterns used by the optional HISS-RAT ingest. Regular expressions are matched against plugin names. Order matters: the first family that matches wins. Copied from the Capstone 1 toolkit configuration (patterns only).",
+ "families": [
+  {
+   "key": "smb_signing",
+   "label": "SMB signing not required",
+   "patterns": [
+    "^SMB Signing"
+   ]
+  },
+  {
+   "key": "llmnr",
+   "label": "LLMNR enabled",
+   "patterns": [
+    "LLMNR"
+   ]
+  },
+  {
+   "key": "weak_certificates",
+   "label": "Untrusted, self signed, weak or expired certificates",
+   "patterns": [
+    "^SSL Certificate Cannot Be Trusted",
+    "^SSL Self-Signed Certificate",
+    "^SSL Certificate with Wrong Hostname",
+    "^SSL Certificate Expiry$",
+    "^SSL Certificate Signed Using Weak Hashing Algorithm$",
+    "Certificate Chain Contains RSA Keys"
+   ]
+  },
+  {
+   "key": "legacy_tls_ssl",
+   "label": "Legacy TLS and SSL (TLS 1.0, TLS 1.1, SSLv2, SSLv3)",
+   "patterns": [
+    "^TLS Version 1\\.0 Protocol Detection",
+    "^TLS Version 1\\.1 Deprecated",
+    "^SSL Version 2 and 3",
+    "POODLE"
+   ]
+  },
+  {
+   "key": "weak_ciphers",
+   "label": "SWEET32, RC4 and weak key exchange ciphers",
+   "patterns": [
+    "SWEET32",
+    "RC4 Cipher",
+    "Diffie-Hellman Modulus",
+    "Medium Strength Cipher"
+   ]
+  },
+  {
+   "key": "remote_access_tools",
+   "label": "Remote access tools (remote support tool, VNC, RDP exposure)",
+   "patterns": [
+    "Remote Support Tool Client",
+    "^VNC Software Detection",
+    "^Remote Desktop Protocol Service Detection"
+   ]
+  },
+  {
+   "key": "rdp_no_nla",
+   "label": "RDP without Network Level Authentication",
+   "patterns": [
+    "Network Level Authentication"
+   ]
+  },
+  {
+   "key": "msmq_missing_patches",
+   "label": "MSMQ QueueJumper and missing patches",
+   "patterns": [
+    "Message Queuing RCE",
+    "QueueJumper"
+   ]
+  },
+  {
+   "key": "unsupported_outdated_software",
+   "label": "Unsupported or outdated software",
+   "patterns": [
+    "Unsupported Version",
+    "Extended Support",
+    "^Apache",
+    "^OpenSSL 1\\.0",
+    "^OpenSSH <",
+    "^JQuery",
+    "^HP System Management Homepage"
+   ]
+  },
+  {
+   "key": "cleartext_protocols",
+   "label": "Cleartext and insecure legacy protocols (FTP, SMTP, POP, IMAP, TFTP, NFS, rsync, SMBv1)",
+   "patterns": [
+    "^FTP Server Detection",
+    "^SMTP Server Detection",
+    "^POP Server Detection",
+    "^IMAP Service",
+    "^TFTP",
+    "^NFS Server",
+    "^rsync",
+    "Server Message Block \\(SMB\\) Protocol Version 1"
+   ]
+  },
+  {
+   "key": "legacy_simple_services",
+   "label": "Legacy simple services and unneeded network responses",
+   "patterns": [
+    "^Echo Service",
+    "^Chargen",
+    "^Quote of the Day",
+    "^Finger",
+    "^Daytime",
+    "^Discard",
+    "^ICMP Timestamp",
+    "^HTTP TRACE"
+   ]
+  },
+  {
+   "key": "ssh_weakness",
+   "label": "SSH weakness (weak ciphers, MACs, Terrapin, password logon)",
+   "patterns": [
+    "Terrapin",
+    "^SSH Password Authentication",
+    "^SSH SHA-1 HMAC",
+    "^SSH Weak",
+    "^SSH Server CBC"
+   ]
+  }
+ ]
+}

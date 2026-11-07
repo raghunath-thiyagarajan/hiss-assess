@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HISS-Assess Dashboard</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1d2430;--mute:#566171;--line:#d5dbe3;--accent:#1f5f8b;--accent2:#7a5a1f;
+--m0:#8a1f3d;--m1:#c8402f;--m2:#d98a1f;--m3:#3d8a5a;--m4:#1f5f8b;--warn:#fff4d6;--warnb:#d9b43a;--sim:#e8f0fa;--simb:#8fb2d6;
+--track:#e3e8ee}
+@media (prefers-color-scheme:dark){:root{--bg:#12161c;--card:#1b212a;--ink:#e6eaf0;--mute:#9aa6b5;--line:#2c3541;--accent:#6fb1de;--accent2:#d7b068;
+--m0:#b8466a;--m1:#d96a58;--m2:#d9a24a;--m3:#58a878;--m4:#6fb1de;--warn:#3a3217;--warnb:#a98a22;--sim:#1a2a3b;--simb:#3f6a94;--track:#2a3340}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,Segoe UI,Arial,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+h1{font-size:1.45rem;margin:.2rem 0}
+h2{font-size:1.1rem;margin:1.4rem 0 .5rem}
+h3{font-size:1rem;margin:1rem 0 .4rem}
+p{margin:.4rem 0}
+.sub{color:var(--mute);margin:.1rem 0 .8rem}
+.note{background:var(--warn);border:1px solid var(--warnb);border-radius:6px;padding:9px 12px;margin:8px 0}
+.sim{background:var(--sim);border:1px solid var(--simb);border-radius:6px;padding:9px 12px;margin:8px 0}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 6px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.tabs button{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:8px 14px;cursor:pointer;white-space:nowrap;flex:0 1 auto}
+.tabs button[aria-selected="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.tabs button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section[hidden]{display:none}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:10px;margin:12px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px}
+.kpi b{display:block;font-size:1.3rem;overflow-wrap:anywhere}
+.kpi span{color:var(--mute);font-size:.82rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px;margin:8px 0}
+.card[hidden]{display:none}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;white-space:nowrap}
+td.wrapcell{white-space:normal;min-width:200px}
+th{font-weight:600;color:var(--mute);position:sticky;top:0;background:var(--card)}
+td.n,th.n{text-align:right}
+.pill{display:inline-block;min-width:1.6em;text-align:center;padding:1px 8px;border-radius:10px;color:#fff;font-size:.8rem}
+.m0{background:var(--m0)}.m1{background:var(--m1)}.m2{background:var(--m2);color:#1a1a1a}.m3{background:var(--m3)}.m4{background:var(--m4)}
+.st-ready,.st-yes{color:var(--m3);font-weight:600}.st-partial{color:var(--m2);font-weight:600}.st-not{color:var(--m1);font-weight:600}
+.st-mute{color:var(--mute)}
+.bl{display:grid;grid-template-columns:minmax(90px,200px) 1fr;gap:4px 10px;align-items:center;margin:6px 0}
+.bl .lab{font-size:.88rem;overflow-wrap:anywhere}
+.track{background:var(--track);border-radius:4px;height:11px;overflow:hidden;margin:2px 0}
+.fill{height:100%;background:var(--accent)}
+.fill.b{background:var(--accent2)}
+.val{font-size:.8rem;color:var(--mute)}
+.legend{font-size:.82rem;color:var(--mute);margin:4px 0}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 4px 0 8px;vertical-align:middle;background:var(--accent)}
+.sw.b{background:var(--accent2)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0}
+select,input{font:inherit;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);max-width:100%}
+.small{color:var(--mute);font-size:.82rem}
+.heat td.c{text-align:center;min-width:70px}
+footer{margin:24px 0 8px;color:var(--mute);font-size:.82rem}
+.hint{display:none;color:var(--mute);font-size:.8rem;margin:2px 0}
+@media (max-width:760px){.hint{display:block}}
+@media (max-width:520px){.wrap{padding:12px}.bl{grid-template-columns:1fr}.tabs button{padding:8px 10px;flex:1 1 30%;text-align:center}}
+@media (max-width:600px){
+.hint{display:none}
+table.stack thead{display:none}
+table.stack,table.stack tbody,table.stack tr,table.stack td{display:block;width:100%}
+table.stack tr{border:1px solid var(--line);border-radius:6px;margin:0 0 8px;padding:2px 8px;background:var(--card)}
+table.stack td{display:flex;justify-content:space-between;gap:12px;white-space:normal;text-align:right;border-bottom:1px solid var(--line);padding:5px 0;min-width:0}
+table.stack td:last-child{border-bottom:0}
+table.stack td::before{content:attr(data-label);color:var(--mute);font-weight:600;text-align:left;flex:0 0 38%}
+table.stack td.barcell{display:block;text-align:left}
+table.stack td.barcell::before{display:block;margin-bottom:3px}
+table.stack td.n{text-align:right}
+td.wrapcell{min-width:0}
+.card.scroll{padding:6px;border:0;background:transparent}
+}
+</style></head><body><div class="wrap">
+<h1>HISS-Assess dashboard</h1>
+<p class="sub" id="sub"></p>
+<div class="note" id="assumed"></div>
+<div class="sim" id="inputnote"></div>
+<div class="tabs" role="tablist" id="tabs"></div>
+<p class="hint">Wide tables scroll sideways on this screen.</p>
+
+<section id="t-overview">
+<div class="kpis" id="kpis"></div>
+<div class="grid2">
+<div class="card"><h3>Domain maturity</h3><div id="barsDomains"></div><p class="small">Bar length is mean effective maturity as a percentage of 4.</p></div>
+<div class="card"><h3>Standards coverage</h3>
+<div class="legend"><span class="sw"></span>source backed (direct rows only)<span class="sw b"></span>indicative (all rows)</div>
+<div id="barsStandards"></div><p class="small" id="stdBasis"></p></div>
+<div class="card"><h3>Jurisdiction readiness</h3><div id="barsJur"></div><p class="small">Verified obligations only. Secondary items are tracked and not scored.</p></div>
+<div class="card"><h3>Roadmap waves</h3><div id="barsWaves"></div><p class="small">Priority = level weight x tier weight x maturity gap / effort weight (all weights assumed).</p></div>
+</div>
+<div class="card" id="ingestCard" hidden><h3>HISS-RAT findings</h3><div id="ingestText"></div></div>
+</section>
+
+<section id="t-domains" hidden>
+<h2>Domain scores</h2>
+<div class="card scroll"><table id="tDomains"></table></div>
+<h2>Controls</h2>
+<div class="filters">
+<select id="fDom" aria-label="Domain"><option value="">All domains</option></select>
+<select id="fMet" aria-label="Met"><option value="">Met and unmet</option><option value="yes">Met only</option><option value="no">Unmet only</option></select>
+<input id="fCtl" placeholder="Filter by id or title" aria-label="Filter controls">
+</div>
+<div class="card scroll"><table id="tControls"></table></div>
+<p class="small">Maturity: 0 not in place, 1 ad hoc, 2 documented, 3 implemented with evidence, 4 measured and reviewed. A control is met at 3 or above. A cap from HISS-RAT findings lowers the self assessed value.</p>
+</section>
+
+<section id="t-standards" hidden>
+<h2>Frameworks</h2>
+<div class="card scroll"><table id="tFw"></table></div>
+<p class="small" id="fwNote"></p>
+<h2>Clauses</h2>
+<div class="filters">
+<select id="fFw" aria-label="Framework"></select>
+<select id="fSt" aria-label="State"><option value="">All states</option></select>
+<input id="fCl" placeholder="Filter by clause or title" aria-label="Filter clauses">
+</div>
+<div class="card scroll"><table id="tClauses"></table></div>
+<p class="small" id="clNote"></p>
+</section>
+
+<section id="t-jur" hidden>
+<h2>Readiness by jurisdiction</h2>
+<div class="card scroll"><table id="tJs"></table></div>
+<h2>Obligations</h2>
+<div class="filters"><select id="fJ" aria-label="Jurisdiction"><option value="">All jurisdictions</option></select></div>
+<div class="card scroll"><table id="tJo"></table></div>
+<p class="small">Readiness is the mean maturity of the applicable controls linked to an obligation, as a percentage of 4. Ready means every linked control is met. Jurisdictions other than the actual one are what if or judged runs and are labelled in the basis column.</p>
+<h2>Tracking only</h2>
+<div class="card scroll"><table id="tJt"></table></div>
+</section>
+
+<section id="t-gaps" hidden>
+<h2>Unmet controls by domain</h2>
+<div class="card scroll"><table id="tGd"></table></div>
+<h2>Unmet and unreached clauses</h2>
+<div class="filters"><select id="fGs" aria-label="Framework"></select></div>
+<div class="card" id="gStd"></div>
+<h2>ISO only comparison</h2>
+<div class="card" id="isoText"></div>
+<div class="card scroll"><table id="tIsoM" class="heat"></table></div>
+<div class="card scroll"><table id="tIsoR"></table></div>
+<h3>Unmet controls that an ISO only review would not point to</h3>
+<div class="card scroll"><table id="tIsoI"></table></div>
+</section>
+
+<section id="t-road" hidden>
+<h2>Waves</h2>
+<div class="card scroll"><table id="tW"></table></div>
+<h2>Items</h2>
+<div class="filters">
+<select id="fW" aria-label="Wave"><option value="">All waves</option></select>
+<select id="fRd" aria-label="Domain"><option value="">All domains</option></select>
+</div>
+<div class="card scroll"><table id="tR"></table></div>
+<p class="small" id="rNote"></p>
+<h2>Wave sensitivity</h2>
+<p class="small" id="wsNote"></p>
+<div class="card scroll"><table id="tWS"></table></div>
+</section>
+
+<footer id="foot"></footer>
+</div>
+<script id="payload" type="application/json">__PAYLOAD__</script>
+<script>
+(function(){
+var D=JSON.parse(document.getElementById('payload').textContent);
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined&&x!==null)e.textContent=x;return e}
+function $(id){return document.getElementById(id)}
+function fillSelect(sel,opts){opts.forEach(function(o){var op=el('option','',o[1]);op.value=o[0];sel.appendChild(op)})}
+function andJoin(a){return a.length>1?a.slice(0,-1).join(', ')+' and '+a[a.length-1]:a.join('')}
+function table(id,heads,rows,numCols,wrapCols){
+  var t=$(id);t.innerHTML='';numCols=numCols||[];wrapCols=wrapCols||[];
+  if(t.className.indexOf('heat')<0&&t.className.indexOf('stack')<0)t.className=(t.className?t.className+' ':'')+'stack';
+  var h=el('tr');heads.forEach(function(x,i){h.appendChild(el('th',numCols.indexOf(i)>=0?'n':'',x))});
+  var th=el('thead');th.appendChild(h);t.appendChild(th);
+  var tb=el('tbody');
+  if(!rows.length){var tr0=el('tr');var td0=el('td','','No rows');td0.colSpan=heads.length;tr0.appendChild(td0);tb.appendChild(tr0)}
+  rows.forEach(function(r){var tr=el('tr');
+    r.forEach(function(c,i){
+      var td=el('td',(numCols.indexOf(i)>=0?'n ':'')+(wrapCols.indexOf(i)>=0?'wrapcell ':'')+((c&&typeof c==='object'&&c.bars)?'barcell':''));
+      td.setAttribute('data-label',heads[i]||'');
+      if(c&&typeof c==='object'&&c.pill!==undefined){td.appendChild(el('span','pill m'+c.pill,c.txt))}
+      else if(c&&typeof c==='object'&&c.state!==undefined){td.appendChild(el('span',c.cls||'',c.state))}
+      else if(c&&typeof c==='object'&&c.bars){c.bars.forEach(function(b){var tr2=el('div','track');var f=el('div','fill'+(b.b?' b':''));f.style.width=Math.max(0,Math.min(100,b.v||0))+'%';tr2.appendChild(f);td.appendChild(tr2)});td.style.minWidth='110px'}
+      else td.textContent=(c===null||c===undefined)?'':c;
+      tr.appendChild(td)});
+    tb.appendChild(tr)});
+  t.appendChild(tb)}
+function barList(id,items){
+  var host=$(id);host.innerHTML='';
+  items.forEach(function(it){
+    var box=el('div','bl');box.appendChild(el('div','lab',it.label));
+    var col=el('div');
+    (it.bars||[{v:it.v,b:false}]).forEach(function(b){var t=el('div','track');var f=el('div','fill'+(b.b?' b':''));f.style.width=Math.max(0,Math.min(100,b.v||0))+'%';t.appendChild(f);col.appendChild(t)});
+    col.appendChild(el('div','val',it.text));box.appendChild(col);host.appendChild(box)})}
+function pill(v){return {pill:v,txt:String(v)}}
+function pctTxt(v){return (v===''||v===null||v===undefined)?'n/a':v+'%'}
+
+var P=D.property,I=D.input,O=D.overall;
+$('sub').textContent=P.label+'. Profile '+P.profile+', operating model '+P.operating_model+', active triggers: '+(P.triggers.length?andJoin(P.triggers):'none')+'.';
+$('assumed').textContent=D.assumptions.note;
+$('inputnote').textContent=(I.status==='simulated'?'Simulated answers ('+(I.tag||'tagged')+'). They show how the toolkit behaves and are not a finding about the property. ':'Answers are '+I.status+'. ')+I.answered+' of '+I.applicable+' applicable controls were answered.';
+
+var TABS=[['overview','Overview'],['domains','Domains'],['standards','Standards'],['jur','Jurisdictions'],['gaps','Gaps'],['road','Roadmap']];
+var tb=$('tabs');
+function show(name){TABS.forEach(function(t){$('t-'+t[0]).hidden=(t[0]!==name)});
+  Array.prototype.forEach.call(tb.children,function(b){b.setAttribute('aria-selected',b.getAttribute('data-t')===name?'true':'false')})}
+TABS.forEach(function(t){var b=el('button','',t[1]);b.type='button';b.setAttribute('role','tab');b.setAttribute('data-t',t[0]);b.onclick=function(){show(t[0])};tb.appendChild(b)});
+show('overview');
+
+var capped=D.controls.filter(function(c){return c.capped_by_scan==='yes'}).length;
+var K=$('kpis');
+[[D.applicability.applicable+' of '+D.applicability.total,'applicable controls'],[O.completeness_pct+'%','answered'],[O.mean_maturity+' of 4','mean maturity'],
+ [O.maturity_pct+'%','maturity percent'],[O.met+' ('+O.met_pct+'%)','controls met'],[D.gap.unmet_total,'controls unmet'],[capped,'capped by scan']].forEach(function(x){
+  var d=el('div','kpi');d.appendChild(el('b','',x[0]));d.appendChild(el('span','',x[1]));K.appendChild(d)});
+barList('barsDomains',D.domains.map(function(d){return {label:d.domain+' '+d.domain_name,v:d.maturity_pct,text:'mean '+d.mean_maturity+' of 4, met '+d.met+' of '+d.controls}}));
+barList('barsStandards',D.standard.frameworks.map(function(f){
+  var uni=f.universe_known;
+  var b=uni?f.source_backed_pct_universe:f.source_backed_pct_reached,i=uni?f.indicative_pct_universe:f.indicative_pct_reached;
+  return {label:f.name,bars:[{v:b||0},{v:i||0,b:true}],text:'source backed '+pctTxt(b)+', indicative '+pctTxt(i)+(uni?'':' (reached clauses only)')}}));
+$('stdBasis').textContent='Where the clause list of a framework is known, clauses that no control reaches count as zero. Source backed uses direct rows with verified targets only.';
+barList('barsJur',D.jurisdictions.summary.map(function(s){return {label:s.jurisdiction+' ('+s.basis+')',v:(s.readiness_pct===''?0:s.readiness_pct),
+  text:(s.readiness_pct===''?'no scored obligations':s.readiness_pct+'% ready on average')+'. Ready '+s.ready_n+', partial '+s.partial_n+', not ready '+s.not_ready_n+', tracking '+s.tracking_n}}));
+var maxW=Math.max.apply(null,D.roadmap.waves.map(function(w){return w.items}).concat([1]));
+barList('barsWaves',D.roadmap.waves.map(function(w){return {label:w.label,v:100*w.items/maxW,text:w.items+' items ('+w.baseline+' Baseline, '+w.enhanced+' Enhanced)'}}));
+if(D.hissrat){$('ingestCard').hidden=false;var H=D.hissrat;
+  $('ingestText').textContent='Source: '+H.findings_source+'. Tier source: '+H.tier_source+'. All systems read: '+H.all_systems.systems+', findings rated Low or above: '+H.all_systems.findings_low_plus+', finding families found: '+H.all_systems.families_found+' of '+H.all_systems.families_defined+'. In scope systems: '+H.in_scope_systems+', in scope findings: '+H.in_scope_findings+'. Controls capped by scan (maturity lowered): '+H.controls_capped+'. Caps are assumed values: Critical or High caps at 1 and Medium at 2, and a cap reaches only controls in domains that the role of the system can influence.'}
+
+table('tDomains',['Domain','Name','Controls','Answered','Mean maturity','Maturity %','Met','Met %','Unmet','Capped by scan'],
+ D.domains.map(function(d){return [d.domain,d.domain_name,d.controls,d.answered,d.mean_maturity,{bars:[{v:d.maturity_pct}]},d.met,d.met_pct,d.unmet,d.capped_by_scan]}),[2,3,4,6,7,8,9]);
+var fd=$('fDom');fillSelect(fd,D.domains.map(function(d){return [d.domain,d.domain+' '+d.domain_name]}));
+function renderCtl(){var dm=fd.value,mt=$('fMet').value,q=$('fCtl').value.toLowerCase();
+  var rows=D.controls.filter(function(c){return (!dm||c.domain===dm)&&(!mt||c.met===mt)&&(!q||(c.control_id+' '+c.title).toLowerCase().indexOf(q)>=0)});
+  table('tControls',['Control','Title','Level','Answered','Self','Cap','Capped by scan','Maturity','Met','Accountable','Cap reason'],
+   rows.map(function(c){return [c.control_id,c.title,c.level,c.answered,c.self_maturity,c.cap,c.capped_by_scan,pill(c.maturity),{state:c.met,cls:c.met==='yes'?'st-yes':'st-not'},c.accountable,c.cap_reason]}),[4,5],[1,10])}
+fd.onchange=renderCtl;$('fMet').onchange=renderCtl;$('fCtl').oninput=renderCtl;renderCtl();
+
+table('tFw',['Framework','Clauses','Reached','Unreached','Met (indicative)','Met (source backed)','Source backed %','Indicative %','Sub level clauses','Sub level indicative %'],
+ D.standard.frameworks.map(function(f){var u=f.universe_known;return [f.name,f.clauses_total,f.clauses_reached_applicable,f.clauses_unreached,f.clauses_met_indicative,f.clauses_met_source_backed,
+  pctTxt(u?f.source_backed_pct_universe:f.source_backed_pct_reached),pctTxt(u?f.indicative_pct_universe:f.indicative_pct_reached),f.sub_level_clauses,pctTxt(f.sub_level_indicative_pct)]}),[1,2,3,4,5,6,7,8,9]);
+$('fwNote').textContent='Percentages cover all clauses of a framework where the clause list is known and reached clauses only otherwise. Rows given at sub level (CIS safeguards and PCI sub requirements) roll up to their control or principal requirement for these figures and are also shown on their own in the last two columns. '+(D.standard.unknown_targets.length?'Targets outside the clause list are scored in the clause table but are not part of these percentages: '+andJoin(D.standard.unknown_targets.map(function(u){return u.framework+' '+u.target}))+'.':'');
+var ff=$('fFw');fillSelect(ff,[['','All frameworks']].concat(D.standard.frameworks.map(function(f){return [f.framework,f.name]})));
+var states={};D.standard.rows.forEach(function(r){states[r.state]=1});fillSelect($('fSt'),Object.keys(states).map(function(s){return [s,s]}));
+function renderCl(){var fw=ff.value,st=$('fSt').value,q=$('fCl').value.toLowerCase();
+  var rows=D.standard.rows.filter(function(r){return (!fw||r.framework===fw)&&(!st||r.state===st)&&(!q||(r.target_id+' '+r.target_title).toLowerCase().indexOf(q)>=0)});
+  var shown=rows.slice(0,300);
+  table('tClauses',['Framework','Clause','Title','Status','Controls','Source backed %','Indicative %','Met','State'],
+   shown.map(function(r){return [r.framework,r.target_id,r.target_title,r.target_status,r.controls,
+    r.source_backed_pct===''?'':{bars:[{v:r.source_backed_pct}]},r.indicative_pct===''?'':{bars:[{v:r.indicative_pct,b:true}]},r.met,r.state]}),[],[2,4]);
+  $('clNote').textContent=rows.length>shown.length?('Showing '+shown.length+' of '+rows.length+' rows. Narrow the filter to see the rest.'):(rows.length+' rows.')}
+ff.onchange=renderCl;$('fSt').onchange=renderCl;$('fCl').oninput=renderCl;renderCl();
+
+table('tJs',['Jurisdiction','Basis','Scored','Ready','Partial','Not ready','No control','Tracking','Readiness %'],
+ D.jurisdictions.summary.concat([D.jurisdictions.overall]).map(function(s){return [s.jurisdiction,s.basis,s.obligations_scored,s.ready_n,s.partial_n,s.not_ready_n,s.no_control_n,s.tracking_n,pctTxt(s.readiness_pct)]}),[2,3,4,5,6,7,8]);
+var fj=$('fJ');fillSelect(fj,D.jurisdictions.summary.map(function(s){return [s.jurisdiction,s.jurisdiction+' ('+s.basis+')']}));
+function stCls(s){return s==='ready'?'st-ready':s==='partial'?'st-partial':s==='not ready'?'st-not':'st-mute'}
+function renderJ(){var j=fj.value;
+  table('tJo',['Obligation','Tag','Instrument','Provision','Applicable controls','Met','Readiness %','State','Unmet controls'],
+   D.jurisdictions.rows.filter(function(r){return r.row_type==='obligation'&&(!j||r.jurisdiction===j)}).map(function(r){return [r.obligation_id,r.tag,r.instrument,r.provision,r.applicable_controls,r.met_controls,pctTxt(r.readiness_pct),{state:r.state,cls:stCls(r.state)},r.unmet_controls]}),[4,5,6],[2,3,8]);
+  table('tJt',['Obligation','Tag','Instrument','Provision','Linked controls'],
+   D.jurisdictions.rows.filter(function(r){return r.row_type==='tracking'&&(!j||r.jurisdiction===j)}).map(function(r){return [r.obligation_id,r.tag,r.instrument,r.provision,r.linked_controls]}),[4],[2,3])}
+fj.onchange=renderJ;renderJ();
+
+table('tGd',['Domain','Name','Unmet','Controls (maturity)'],
+ D.gap.by_domain.map(function(d){return [d.domain,d.domain_name,d.unmet,d.controls.map(function(c){return c.control_id+' '+c.title+' ('+c.maturity+')'}).join('; ')]}),[2],[3]);
+var fg=$('fGs');fillSelect(fg,D.standard.frameworks.map(function(f){return [f.framework,f.name]}));
+function renderG(){var fw=fg.value,box=$('gStd');box.innerHTML='';var d=D.gap.by_standard[fw];
+  if(!d){box.appendChild(el('p','','No unmet or unreached clauses for this framework.'));return}
+  box.appendChild(el('h3','','Unmet clauses ('+d.unmet_clauses.length+')'));
+  box.appendChild(el('p','',d.unmet_clauses.length?d.unmet_clauses.map(function(c){return c.target_id+' '+c.target_title}).join('; '):'None.'));
+  box.appendChild(el('h3','','Clauses no HISS control reaches ('+d.unreached.length+')'));
+  box.appendChild(el('p','',d.unreached.length?d.unreached.map(function(c){return c.target_id}).join(', '):'None. The clause list may not be known for this framework.'))}
+fg.onchange=renderG;if(D.standard.frameworks.length)renderG();
+var S=D.gap.iso_only.summary;
+$('isoText').textContent='Hotel requirements classed under ISO/IEC 27001 Annex A alone and under HISS (assumption A37). ISO only: '+S.iso_only.specific+' specific, '+S.iso_only.generic+' generic, '+S.iso_only.absent+' absent. HISS: '+S.hiss.specific+' specific, '+S.hiss.generic+' generic, '+S.hiss.absent+' absent. '+(S.manual_file_present?' Hand classification: '+S.iso_only_manual.specific+' specific, '+S.iso_only_manual.generic+' generic, '+S.iso_only_manual.absent+' absent, '+S.iso_only_manual.unclassified+' not classified. The automatic rule is circular, so the hand classification is the sensitivity check.':' No hand classification file was found. The automatic rule is circular, so supply inputs/iso_only_manual.csv as a sensitivity check.')+' Of '+S.unmet_controls+' unmet controls, '+S.unmet_controls_invisible_to_iso_only+' have no direct or partial ISO27001 row.';
+var C3=['specific','generic','absent'];
+table('tIsoM',['ISO only class by HISS class'].concat(C3),C3.map(function(i){return [i].concat(C3.map(function(h){return S.matrix_iso_by_hiss[i][h]}))}),[1,2,3]);
+table('tIsoR',['Requirement','Text','ISO only (automatic)','ISO only (hand)','HISS','HISS controls','ISO targets'],
+ D.gap.iso_only.rows.map(function(r){return [r.req_id,r.text,r.iso_class,r.iso_class_manual,r.hiss_class,r.hiss_controls,r.iso_targets]}),[],[1,5,6]);
+table('tIsoI',['Control','Title','Maturity','ISO27001 rows'],D.gap.iso_only.invisible_to_iso.map(function(c){return [c.control_id,c.title,c.maturity,c.iso_rows]}),[2],[1]);
+
+table('tW',['Wave','Items','Baseline','Enhanced','Priority sum'],D.roadmap.waves.map(function(w){return [w.label,w.items,w.baseline,w.enhanced,w.priority_sum]}),[1,2,3,4]);
+fillSelect($('fW'),D.roadmap.waves.map(function(w){return [String(w.wave),w.label]}));
+var rd={};D.roadmap.items.forEach(function(i){rd[i.domain]=1});fillSelect($('fRd'),Object.keys(rd).map(function(d){return [d,d]}));
+function renderR(){var w=$('fW').value,dm=$('fRd').value;
+  table('tR',['Rank','Control','Title','Level','Maturity','Gap','Tier','Effort','Priority','Wave','Accountable','Drivers'],
+   D.roadmap.items.filter(function(i){return (!w||String(i.wave)===w)&&(!dm||i.domain===dm)}).map(function(i){return [i.rank,i.control_id,i.title,i.level,pill(i.maturity),i.gap,i.tier+' ('+i.tier_weight+')',i.effort,i.priority,i.wave,i.accountable,i.drivers]}),[0,5,8,9],[2,11])}
+$('fW').onchange=renderR;$('fRd').onchange=renderR;renderR();
+var WS=D.roadmap.wave_sensitivity;
+$('wsNote').textContent='Cut offs for wave 1 and wave 2: '+WS.cutoffs.wave1+' and '+WS.cutoffs.wave2+' (assumed). Both are moved by 20 percent down and up. Items per wave: '+WS.summary.map(function(x){return x.scenario+' '+x.wave1+', '+x.wave2+', '+x.wave3}).join('; ')+'.';
+table('tWS',['Control','Title','Level','Priority','Base wave','Cut offs x0.8','Cut offs x1.2','Change'],WS.rows.map(function(r){return [r.control_id,r.title,r.level,r.priority,r.wave_base,r.wave_cutoffs_minus20,r.wave_cutoffs_plus20,r.changes]}),[3,4,5,6],[1,7]);
+var A=D.assumptions;
+function kv(o,f){return Object.keys(o).map(function(k){return f(k,o[k])})}
+$('rNote').textContent='Level weights '+andJoin(kv(A.level_weights,function(k,v){return k+' '+v}))+'. Tier weights '+andJoin(kv(A.tier_weights,function(k,v){return 'tier '+k+' = '+v}))+'. Effort weights '+andJoin(kv(A.effort_weights,function(k,v){return k+' '+v}))+'. Target maturity '+A.target_maturity+'. All assumed.';
+var SS=D.sensitivity.roadmap_summary;
+$('foot').textContent='HISS-Assess. Author: '+D.author+'. Weights and caps are assumed. Sensitivity of the domain priority ranking to each weight moved by 20 percent: '+(SS.rho_min===null?'not computed':'Spearman rho from '+SS.rho_min+' to '+SS.rho_max+' over '+SS.cases+' cases')+'.';
+})();
+</script></body></html>

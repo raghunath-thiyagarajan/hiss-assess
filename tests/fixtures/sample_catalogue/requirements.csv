@@ -1,0 +1,7 @@
+req_id,text,c1_ref,control_ids
+R01,Front desk terminals support round the clock use with individual accountability.,Table 10.1,HISS-F4-01
+R02,Vendor remote access follows one approved and logged path.,Table 10.1,HISS-H07-01;HISS-H07-02;HISS-H07-03
+R03,Card data stays in a small separated environment.,Table 10.1,HISS-H02-01;HISS-H02-02;HISS-H02-03
+L1,Guest registration records are kept as local law requires.,Table 10.1,
+P1,Patching fits round the clock operation.,Table 10.4,HISS-F5-02
+P2,Cloud hosted property systems need strong authentication.,Table 10.4,HISS-F4-03

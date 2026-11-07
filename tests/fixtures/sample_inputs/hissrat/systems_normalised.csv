@@ -1,0 +1,5 @@
+system_id,property,role_key,role,role_group,critical,high,medium,low,info,low_plus,source_format,exports_merged,cve_ids,plugins_low_plus
+SAMPLEHOTEL-SQL-01,SAMPLEHOTEL,sql,SQL server,SQL and SQL backup,1,1,1,0,5,3,summary,1,,Critical:Microsoft Message Queuing RCE (QueueJumper) | High:Remote Desktop Protocol Service Detection | Medium:SMB Signing not required
+SAMPLEHOTEL-AD-01,SAMPLEHOTEL,ad,AD (domain controller),AD,0,1,1,0,3,2,summary,1,,High:SSL Medium Strength Cipher Suites Supported (SWEET32) | Medium:TLS Version 1.0 Protocol Detection
+SAMPLEHOTEL-FD-01,SAMPLEHOTEL,frontdesk,Front desk,Front desk and front office,0,0,1,1,2,2,summary,1,,Medium:SMB Signing not required | Low:ICMP Timestamp Request Remote Date Disclosure
+SAMPLEHOTEL-DSK-01,SAMPLEHOTEL,desktop,Desktop,Other desktops and managers,0,0,0,0,4,0,summary,1,,
